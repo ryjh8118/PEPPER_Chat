@@ -14,14 +14,14 @@ u:(Question)Answer
 u:(Human_Input) Robot_Outpt
 
 u:(Sentence _[Word1a Word1b])$1
-u:(_[~love 你]) 我也 $1 你
-u:(_[~hello]) $1 ~vct 有你真的是美好的一天
+u:(_[~love]) 我也 $1 
+u:(_[~hello]) $1 [~vct][~pause] 有你真的是美好的一天耶
 u:(_[~bye]) $1 ~vct 我會很想你
-
+u:({你}[~praise]{~Aux}) 謝謝你[~pause]我也覺得你很棒
+u:(你在幹嘛)我在和你聊天[~pause]讓我感到很容戲
 u:(天氣)你是我的晴天
-#u:(想你)我也想你
 
-#u:(早安{啊})早安，有你是個美好的一天
+
 u:({你}真會說話)我只是述說事實而已
 u:(陪我{玩})那我們來拍照
 
