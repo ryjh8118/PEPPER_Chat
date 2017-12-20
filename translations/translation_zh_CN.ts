@@ -10,6 +10,38 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Face Detection/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>媒人</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Face Detection/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>&quot;快來和我聊天&quot;</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Face Detection/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>哀</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
             <source>Hello</source>
@@ -18,7 +50,7 @@
         </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>&quot;快來和我聊天&quot;</source>
+            <source>早安</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -30,12 +62,6 @@
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
         </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>哀</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (2)</name>
@@ -43,12 +69,6 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
-        </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>沒人</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
         </message>
     </context>
 </TS>
