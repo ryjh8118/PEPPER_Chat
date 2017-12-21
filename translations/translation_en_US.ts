@@ -10,6 +10,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Diagram/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation>Hello</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Face Detection/Say</name>
         <message>
             <source>沒人</source>
@@ -69,10 +78,9 @@
             <translation type="obsolete">早安阿</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>早安</source>
             <comment>Text</comment>
-            <translation type="unfinished">早安</translation>
+            <translation type="obsolete">早安</translation>
         </message>
     </context>
     <context>
