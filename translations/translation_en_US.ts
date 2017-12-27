@@ -10,6 +10,14 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Diagram/Animated Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Diagram/Say</name>
         <message>
             <source>Hello</source>
@@ -80,6 +88,11 @@
             <source>早安</source>
             <comment>Text</comment>
             <translation type="obsolete">早安</translation>
+        </message>
+        <message>
+            <source>嗨</source>
+            <comment>Text</comment>
+            <translation type="obsolete">嗨</translation>
         </message>
     </context>
     <context>

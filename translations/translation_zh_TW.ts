@@ -10,6 +10,14 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Diagram/Animated Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Diagram/Say</name>
         <message>
             <source>Hello</source>
