@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="chat1215-511e37" version="0.0.0">
+<package version="0.0.0" uuid="chat1215-511e37">
  <names>
   <name lang="en_US">chat1215</name>
  </names>
@@ -19,6 +19,13 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
+  <dialogContent topicName="Pepper" typeVersion="1.0">
+   <topic language="en_US" path="Pepper/Pepper_enu.top"/>
+  </dialogContent>
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
+   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic language="zh_CN" path="behavior_1/ExampleDialog/ExampleDialog_mnc.top"/>
+  </dialogContent>
  </contents>
  <requirements>
   <naoqiRequirement minVersion="2.5"/>

@@ -10,6 +10,33 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Chat/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>媒人</source>
+            <comment>Text</comment>
+            <translation type="unfinished">媒人</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Chat/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>&quot;快來和我聊天&quot;</source>
+            <comment>Text</comment>
+            <translation type="unfinished">&quot;快來和我聊天&quot;</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Chat/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>哀</source>
+            <comment>Text</comment>
+            <translation type="unfinished">哀</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Diagram/Animated Say</name>
         <message>
             <source>Hello</source>
@@ -38,28 +65,25 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>媒人</source>
             <comment>Text</comment>
-            <translation type="unfinished">媒人</translation>
+            <translation type="obsolete">媒人</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Face Detection/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>&quot;快來和我聊天&quot;</source>
             <comment>Text</comment>
-            <translation type="unfinished">&quot;快來和我聊天&quot;</translation>
+            <translation type="obsolete">&quot;快來和我聊天&quot;</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Face Detection/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>哀</source>
             <comment>Text</comment>
-            <translation type="unfinished">哀</translation>
+            <translation type="obsolete">哀</translation>
         </message>
     </context>
     <context>
@@ -93,6 +117,11 @@
             <source>嗨</source>
             <comment>Text</comment>
             <translation type="obsolete">嗨</translation>
+        </message>
+        <message>
+            <source>HELLO</source>
+            <comment>Text</comment>
+            <translation type="obsolete">HELLO</translation>
         </message>
     </context>
     <context>

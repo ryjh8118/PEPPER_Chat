@@ -1,0 +1,18 @@
+topic: ~Pepper()
+language: mnc
+include: lexicon_mnc.top
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(Question)Answer
+u:(Human_Input) Robot_Outpt
+
+proposal:你好嗎
+    u1:(我很好)太好了
+    u1:(我好累)在未來超市(~pause)可以好好的休息
