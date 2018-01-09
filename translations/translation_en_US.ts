@@ -12,10 +12,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Chat/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>媒人</source>
             <comment>Text</comment>
-            <translation type="unfinished">媒人</translation>
+            <translation type="obsolete">媒人</translation>
         </message>
     </context>
     <context>
@@ -39,10 +38,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Chat/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hello</translation>
+            <translation type="vanished">Hello</translation>
         </message>
     </context>
     <context>
