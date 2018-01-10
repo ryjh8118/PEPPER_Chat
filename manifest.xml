@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <package version="0.0.0" uuid="chat1215-511e37">
  <names>
-  <name lang="en_US">chat1215</name>
+  <name lang="en_US">chat_renguin</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>
@@ -17,19 +17,16 @@
   <behaviorContent path="behavior_1">
    <userRequestable/>
    <nature>interactive</nature>
-   <triggerSentences/>
-   <loadingResponses/>
    <autonomous>
-    <condition purpose="launchTrigger"><![CDATA[('Launchpad/NumPeopleZone1'>0)]]></condition>
+    <condition purpose="launchTrigger"><![CDATA[('Launchpad/NumPeopleZone1'>0)
+
+]]></condition>
    </autonomous>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="Pepper">
-   <topic language="en_US" path="Pepper/Pepper_enu.top"/>
-  </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
-   <topic language="zh_CN" path="behavior_1/ExampleDialog/ExampleDialog_mnc.top"/>
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_mnc.top" language="zh_CN"/>
   </dialogContent>
  </contents>
  <requirements>

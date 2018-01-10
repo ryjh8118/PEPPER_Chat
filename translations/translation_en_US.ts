@@ -96,9 +96,10 @@
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="vanished">Hello</translation>
+            <translation>Hello</translation>
         </message>
         <message>
             <source>&quot;快來換我聊天&quot;</source>
@@ -143,6 +144,12 @@
             <comment>Text</comment>
             <translation type="obsolete">哀</translation>
         </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (2)</name>
@@ -155,6 +162,12 @@
             <source>沒人</source>
             <comment>Text</comment>
             <translation type="obsolete">沒人</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
         </message>
     </context>
 </TS>
