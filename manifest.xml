@@ -24,9 +24,9 @@
    </autonomous>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
-   <topic path="behavior_1/ExampleDialog/ExampleDialog_mnc.top" language="zh_CN"/>
+  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
+   <topic language="zh_CN" path="behavior_1/ExampleDialog/ExampleDialog_mnc.top"/>
   </dialogContent>
  </contents>
  <requirements>
