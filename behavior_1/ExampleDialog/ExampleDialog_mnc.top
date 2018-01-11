@@ -27,7 +27,7 @@ u:([~who]) 我是^rand[Pepper 派柏 可愛的機器人 ]
 u:(自我介紹) 你竟然不認識我
 u:(你幾公分)一定比矮 嗚嗚
 
-u:(e:Dialog/NotUnderstood3):^rand[蛤你說什麼 拜託再說一次 旁邊好吵唷聽不到]  #事件 聽不懂兩次
+u:(e:Dialog/NotUnderstood3):^rand[蛤你說什麼 拜託再說一次]  #事件 聽不懂兩次
 u:(e:Dialog/NotSpeaking5):^rand[歡迎來到有值感的未來超市 這是一個懷舊帶有科技的未來超市 今天想要買甚麼呢 近來了就來看看吧可以問問我唷] #沒人說話的話 隨機
 
 
