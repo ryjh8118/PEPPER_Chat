@@ -123,10 +123,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hello</translation>
+            <translation type="vanished">Hello</translation>
         </message>
         <message>
             <source>&quot;快來換我聊天&quot;</source>
@@ -157,6 +156,17 @@
             <source>HELLO</source>
             <comment>Text</comment>
             <translation type="obsolete">HELLO</translation>
+        </message>
+        <message>
+            <source>各位長官來賓大家好</source>
+            <comment>Text</comment>
+            <translation type="obsolete">各位長官來賓大家好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>啟動</source>
+            <comment>Text</comment>
+            <translation type="unfinished">啟動</translation>
         </message>
     </context>
     <context>
