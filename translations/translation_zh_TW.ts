@@ -42,17 +42,29 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Learn Face/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Learn Face/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
-        </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>啟動</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
@@ -61,6 +73,12 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>快點來註冊吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>

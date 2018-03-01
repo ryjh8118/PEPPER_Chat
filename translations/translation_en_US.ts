@@ -121,6 +121,24 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Learn Face/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Learn Face/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished">失敗</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
             <source>Hello</source>
@@ -163,10 +181,14 @@
             <translation type="obsolete">各位長官來賓大家好</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>啟動</source>
             <comment>Text</comment>
-            <translation type="unfinished">啟動</translation>
+            <translation type="obsolete">啟動</translation>
+        </message>
+        <message>
+            <source>連線成功</source>
+            <comment>Text</comment>
+            <translation type="obsolete">連線成功</translation>
         </message>
     </context>
     <context>
@@ -190,6 +212,17 @@
             <source>講很多</source>
             <comment>Text</comment>
             <translation type="obsolete">講很多</translation>
+        </message>
+        <message>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="obsolete">成功</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>快點來註冊吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished">快點來註冊吧</translation>
         </message>
     </context>
     <context>
