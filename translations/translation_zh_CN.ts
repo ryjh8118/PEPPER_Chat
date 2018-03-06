@@ -42,6 +42,87 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>&quot;快來和我聊天&quot;</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>哀</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Learn Face/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Learn Face/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入你的電話說不定我會認識你唷</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Learn Face/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -66,6 +147,12 @@
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
         </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
@@ -76,7 +163,7 @@
         </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>快點來註冊吧</source>
+            <source>失敗</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -90,37 +177,10 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/havepeople/Chat/Say (1)</name>
+        <name>behavior_1/behavior.xar:/Say (3)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>&quot;快來和我聊天&quot;</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/havepeople/Chat/Say (2)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>哀</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/havepeople/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/havepeople/Say (1)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
+            <source>成功旺季</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>

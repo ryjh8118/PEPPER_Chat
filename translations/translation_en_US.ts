@@ -121,6 +121,107 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>&quot;快來和我聊天&quot;</source>
+            <comment>Text</comment>
+            <translation type="unfinished">&quot;快來和我聊天&quot;</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>哀</source>
+            <comment>Text</comment>
+            <translation type="unfinished">哀</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
+            <comment>Text</comment>
+            <translation type="unfinished">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Learn Face/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Learn Face/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished">失敗</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say</name>
+        <message>
+            <source>我不認識你呢來認識一下吧</source>
+            <comment>Text</comment>
+            <translation type="obsolete">我不認識你呢來認識一下吧</translation>
+        </message>
+        <message>
+            <source>我想猜一下你的年紀 看著我</source>
+            <comment>Text</comment>
+            <translation type="obsolete">我想猜一下你的年紀 看著我</translation>
+        </message>
+        <message>
+            <source>我想猜一下你的年紀 看著我 [~pause] 順便幫我填你的名字好嗎</source>
+            <comment>Text</comment>
+            <translation type="obsolete">我想猜一下你的年紀 看著我 [~pause] 順便幫我填你的名字好嗎</translation>
+        </message>
+        <message>
+            <source>我想猜一下你的年紀 看著我好嗎</source>
+            <comment>Text</comment>
+            <translation type="obsolete">我想猜一下你的年紀 看著我好嗎</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入你的電話說不定我會認識你唷</source>
+            <comment>Text</comment>
+            <translation type="unfinished">輸入你的電話說不定我會認識你唷</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished">失敗</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Learn Face/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -190,6 +291,22 @@
             <comment>Text</comment>
             <translation type="obsolete">連線成功</translation>
         </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功</translation>
+        </message>
+        <message>
+            <source>Hello [~pause] 你好啊</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello [~pause] 你好啊</translation>
+        </message>
+        <message>
+            <source>Hello %pause 你好啊</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Hello %pause 你好啊</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
@@ -219,10 +336,20 @@
             <translation type="obsolete">成功</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>快點來註冊吧</source>
             <comment>Text</comment>
-            <translation type="unfinished">快點來註冊吧</translation>
+            <translation type="obsolete">快點來註冊吧</translation>
+        </message>
+        <message>
+            <source>我不認識你呢來認識一下吧</source>
+            <comment>Text</comment>
+            <translation type="obsolete">我不認識你呢來認識一下吧</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="unfinished">失敗</translation>
         </message>
     </context>
     <context>
@@ -242,41 +369,51 @@
             <comment>Text</comment>
             <translation type="obsolete">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
         </message>
+        <message>
+            <source>失敗</source>
+            <comment>Text</comment>
+            <translation type="obsolete">失敗</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say (3)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功旺季</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功旺季</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/havepeople/Chat/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>&quot;快來和我聊天&quot;</source>
             <comment>Text</comment>
-            <translation type="unfinished">&quot;快來和我聊天&quot;</translation>
+            <translation type="obsolete">&quot;快來和我聊天&quot;</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/havepeople/Chat/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>哀</source>
             <comment>Text</comment>
-            <translation type="unfinished">哀</translation>
+            <translation type="obsolete">哀</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/havepeople/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
             <comment>Text</comment>
-            <translation type="unfinished">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
+            <translation type="obsolete">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/havepeople/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
             <comment>Text</comment>
-            <translation type="unfinished">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
+            <translation type="obsolete">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
         </message>
     </context>
 </TS>

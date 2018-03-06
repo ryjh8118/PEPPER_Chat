@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="100"><Box name="gender_age_php (1)" id="1" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="615" y="514"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="100"><Box name="gender_age_php (1)" id="1" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="783" y="435"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
 
@@ -27,7 +27,7 @@
 
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="havepeople" id="13" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="501" y="94"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Chat" id="5" localization="8" tooltip="Detect people&apos;s face and return the number of detected faces.&#x0A;&#x0A;Note: Detect even faces that are not registered in the faces database (that&#x0A;you can teach him with the Learn Face box)." x="204" y="8"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="FaceDection" id="13" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="602" y="291"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Chat" id="5" localization="8" tooltip="Detect people&apos;s face and return the number of detected faces.&#x0A;&#x0A;Note: Detect even faces that are not registered in the faces database (that&#x0A;you can teach him with the Learn Face box)." x="204" y="8"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -583,24 +583,8 @@ class MyClass(GeneratedClass):
     def process(self):
         if (self.humanage >5 and self.humangender != None):
             tabletService = self._getTabletService()
-            tabletService.loadUrl("http://125.227.60.86:81/tmp/Recognition.php?age=" + str(self.humanage) + "&gender=" + self.humangender)
-            #tabletService.hide()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="ongender" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Input name="onage" type="2" type_size="1" nature="2" inner="0" tooltip="" id="4" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="5" /></Box><Link inputowner="14" indexofinput="2" outputowner="5" indexofoutput="5" /><Link inputowner="11" indexofinput="2" outputowner="14" indexofoutput="3" /><Link inputowner="15" indexofinput="2" outputowner="11" indexofoutput="4" /><Link inputowner="12" indexofinput="2" outputowner="11" indexofoutput="5" /><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="5" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="5" /><Link inputowner="4" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="4" indexofinput="4" outputowner="1" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="7" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Reboot" id="12" localization="1" tooltip="Reboot the connected robot, if it is not virtual.&#x0A;&#x0A;V1.1.0&#x0A;" x="428" y="390"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        pass
-
-    def onLoad(self):
-        pass
-
-    def onUnload(self):
-        pass
-
-    def onInput_onStart(self):
-        try:
-            system = ALProxy("ALSystem")
-            system.reboot()
-        except:
-            self.logger.error("Cannot reboot a virtual robot")]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /></Box><Box name="ShowImage" id="14" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="565" y="0"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="ShowImg" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="456" y="293"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+            tabletService.loadUrl("http://125.227.60.86:81/tmp/FaceDection.php?age=" + str(self.humanage) + "&gender=" + self.humangender)
+            #tabletService.hide()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="ongender" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Input name="onage" type="2" type_size="1" nature="2" inner="0" tooltip="" id="4" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="5" /></Box><Link inputowner="14" indexofinput="2" outputowner="5" indexofoutput="5" /><Link inputowner="11" indexofinput="2" outputowner="14" indexofoutput="3" /><Link inputowner="15" indexofinput="2" outputowner="11" indexofoutput="4" /><Link inputowner="12" indexofinput="2" outputowner="11" indexofoutput="5" /><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="5" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="5" /><Link inputowner="4" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="4" indexofinput="4" outputowner="1" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="4" outputowner="5" indexofoutput="7" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="ShowImage" id="14" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="682" y="308"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="ShowImg" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="456" y="293"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
         import qi
@@ -657,7 +641,7 @@ class MyClass(GeneratedClass):
     def onInput_onStop(self):
         if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
             self.timerOutput()
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="4" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="gender_age_php" id="4" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="493" y="533"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="4" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="gender_age_php" id="4" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="647" y="436"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
 
@@ -684,9 +668,11 @@ class MyClass(GeneratedClass):
 
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="TEST" id="8" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="641" y="243"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="CustomerChat" id="2" localization="8" tooltip="An example of multilanguage dialog implementation" x="792" y="224"><dialogFile>../Customer/Customer.dlg</dialogFile><bitmap>media/images/box/box-dialog.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="playAGame" type="1" type_size="1" nature="2" inner="0" tooltip="stimulated using $playAGame=1 in qiChat script when User wants to play a game&#x0A;" id="5" /><Resource name="Speech" type="Lock" timeout="0" /><Resource name="Speech recognition" type="Lock" timeout="0" /></Box><Box name="LabCameraName" id="7" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="684" y="154"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Say" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="321" y="131"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
+        import qi
+
 
     def onLoad(self):
         #put initialization code here
@@ -704,15 +690,170 @@ class MyClass(GeneratedClass):
             self.logger.error(e)
         return tabletService
 
+    def onInput_onStart(self):
+        tabletService = self._getTabletService()
+        ##tabletService.showWebview("http://125.227.60.86:81/tmp/pepper.php" )
+
+        import requests
+        url = "http://192.168.1.204/LabCameraName.php"   #LAB攝影機位置
+
+        resp = requests.request('GET', url)
+
+        #resp.content
+        self.onStopped(resp.content)
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="Animated Say Text" id="5" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="461" y="114"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
-        #nao restart
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALAnimatedSpeech')
+        self.ttsStop = ALProxy('ALAnimatedSpeech', True) #Create another proxy as wait is blocking if audioout is remote
 
-    def onInput_process(self):
-        tabletService = self._getTabletService()
-        tabletService.showWebview("http://125.227.60.86:81/tmp/Recognition.php?age=100&gender=test" ) #偵測到後沒人]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="process" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="CustomerChat" id="2" localization="8" tooltip="An example of multilanguage dialog implementation" x="626" y="131"><dialogFile>../Customer/Customer.dlg</dialogFile><bitmap>media/images/box/box-dialog.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="playAGame" type="1" type_size="1" nature="2" inner="0" tooltip="stimulated using $playAGame=1 in qiChat script when User wants to play a game&#x0A;" id="5" /><Resource name="Speech" type="Lock" timeout="0" /><Resource name="Speech recognition" type="Lock" timeout="0" /></Box><Box name="Learn Face" id="3" localization="8" tooltip="Teach the robot a new face to recognize. the robot&apos;s eyes will become green in case of&#x0A;success and red in case of failure.&#x0A;&#x0A;V1.1.0&#x0A;" x="331" y="139"><bitmap>media/images/box/interaction/learn_face.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onLearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of the face you want to learn.&#x0A;&#x0A;After entering the name of the face, you have 5s to place in front of the robot&apos;s face.&#x0A;Then the learning process is launched and the robot&apos;s eyes get blue. After some&#x0A;seconds, his eyes should turn green (success) or red (failure).&#x0A;&#x0A;Note: You can learn several times the same face on different days and/or&#x0A;conditions to robustify the recognition process." id="2" /><Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning succeeded." id="3" /><Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning failed." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Learn Face" id="2" localization="8" tooltip="Learn a face to recognize it later.&#x0A;&#x0A;Note: You need to be just in front of the robot&apos;s face to teach him your face." x="624" y="60"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            movement = self.getParameter("Speaking movement mode")
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str(p)
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence), {"speakingMovementMode":movement})
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="random" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7"><Choice value="disabled" /><Choice value="random" /><Choice value="contextual" /></Parameter></Box><Box name="Delay" id="14" localization="8" tooltip="Wait a moment before triggering the output. &#x0A;Can be stopped anytime. &#x0A;Multiple inputs will trigger multiple outputs." x="605" y="11"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.delayed = []
+
+    def onUnload(self):
+        self.cancelDelays()
+
+    def cancelDelays(self):
+        cancel_list = list(self.delayed)
+        for d in cancel_list:
+            d.cancel()
+
+    def cleanDelay(self, fut, fut_ref):
+        self.delayed.remove(fut)
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def onInput_onStart(self):
+        import qi
+        import functools
+        delay_future = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+        # keep the async operation in an array for cancel
+        # and remove it when it is finished in the callback
+        self.delayed.append(delay_future)
+        bound_clean = functools.partial(self.cleanDelay, delay_future)
+        delay_future.addCallback(bound_clean)
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.delayed:
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Delay box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once delay set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="5" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently delaying at least one signal and cancelled, output will be stimulated." id="6" /></Box><Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="14" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="14" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Unlearn Face" id="17" localization="8" tooltip="Unlearn the face which name is set on the input.&#x0A;&#x0A;Note: If the face has not been learnt before, the onFailure output will be stimulated.&#x0A;&#x0A;V1.1.0" x="314" y="539"><bitmap>media/images/box/interaction/unlearn_face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        #~ puts code for box initialization here
+        self.blsRunning = False
+        pass
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_onUnlearn(self, p):
+        #~ self.onSuccess() #~ activate output of the box
+        if(self.blsRunning ):
+            return
+        self.blsRunning = True
+        try:
+            faceDetectionModule = ALProxy("ALFaceDetection")
+        except Exception as e:
+            faceDetectionModule = None
+            self.logger.error(e)
+        if( faceDetectionModule and faceDetectionModule.forgetPerson(p) ):
+            self.onSuccess()
+        else:
+            self.onFailure()
+        self.blsRunning = False]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onUnlearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of face you want the robot to unlearn." id="2" /><Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when the face has been successfully unlearnt." id="3" /><Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when the box encountered an error (unknown face name, for example)." id="4" /></Box><Box name="Text Edit" id="18" localization="8" tooltip="Send the text you entered when the input is stimulated." plugin="textedit_plugin" x="104" y="437"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[# /!\ Generated content. Do not edit!
+class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped("")]]></content></script><pluginContent><text><![CDATA[]]></text></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="1" inner="0" tooltip="To send the text on the output." id="2" /><Output name="onStopped" type="3" type_size="1" nature="2" inner="0" tooltip="The text you entered." id="3" /></Box><Box name="Say (3)" id="12" localization="8" tooltip="Say some text. The text can be localized." x="457" y="494"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="成功旺季" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="FaceReco" id="20" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="427" y="260"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Learn Face" id="3" localization="8" tooltip="Teach the robot a new face to recognize. the robot&apos;s eyes will become green in case of&#x0A;success and red in case of failure.&#x0A;&#x0A;V1.1.0&#x0A;" x="596" y="51"><bitmap>media/images/box/interaction/learn_face.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onLearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of the face you want to learn.&#x0A;&#x0A;After entering the name of the face, you have 5s to place in front of the robot&apos;s face.&#x0A;Then the learning process is launched and the robot&apos;s eyes get blue. After some&#x0A;seconds, his eyes should turn green (success) or red (failure).&#x0A;&#x0A;Note: You can learn several times the same face on different days and/or&#x0A;conditions to robustify the recognition process." id="2" /><Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning succeeded." id="3" /><Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning failed." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="118.921"><Box name="Learn Face" id="2" localization="8" tooltip="Learn a face to recognize it later.&#x0A;&#x0A;Note: You need to be just in front of the robot&apos;s face to teach him your face." x="624" y="60"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
         try:
@@ -981,43 +1122,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="失敗" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Link inputowner="2" indexofinput="2" outputowner="8" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="5" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="5" /><Link inputowner="0" indexofinput="3" outputowner="5" indexofoutput="3" /><Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" /><Link inputowner="8" indexofinput="3" outputowner="3" indexofoutput="4" /><Link inputowner="4" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="7" indexofinput="2" outputowner="2" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="SayYourName" id="7" localization="8" tooltip="This box is empty and should be used to create any box diagram you would like.&#x0A;&#x0A;To edit its diagram, double-click on it." x="349" y="28"><bitmap>media/images/box/box-diagram.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Say" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="321" y="131"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self)
-        import qi
-
-
-    def onLoad(self):
-        #put initialization code here
-        pass
-
-    def onUnload(self):
-        #put clean-up code here
-        pass
-
-    def _getTabletService(self):
-        tabletService = None
-        try:
-            tabletService = self.session().service("ALTabletService")
-        except Exception as e:
-            self.logger.error(e)
-        return tabletService
-
-    def onInput_onStart(self):
-        tabletService = self._getTabletService()
-        ##tabletService.showWebview("http://125.227.60.86:81/tmp/pepper.php" )
-
-        import requests
-        #url = "http://125.227.60.86:81/tmp/pepper.php"   #網域
-        url = "http://192.168.1.204/pepper.php"   #LAB攝影機位置
-
-        resp = requests.request('GET', url)
-
-        #resp.content
-        self.onStopped(resp.content)
-    def onInput_onStop(self):
-        self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="Animated Say Text" id="5" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="461" y="114"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="失敗" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Link inputowner="2" indexofinput="2" outputowner="8" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="5" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="5" /><Link inputowner="0" indexofinput="3" outputowner="5" indexofoutput="3" /><Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" /><Link inputowner="8" indexofinput="3" outputowner="3" indexofoutput="4" /><Link inputowner="4" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="7" indexofinput="2" outputowner="2" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Animated Say Text" id="9" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="686" y="327"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -1059,83 +1164,7 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="random" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7"><Choice value="disabled" /><Choice value="random" /><Choice value="contextual" /></Parameter></Box><Box name="Delay" id="14" localization="8" tooltip="Wait a moment before triggering the output. &#x0A;Can be stopped anytime. &#x0A;Multiple inputs will trigger multiple outputs." x="605" y="11"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self, False)
-
-    def onLoad(self):
-        self.delayed = []
-
-    def onUnload(self):
-        self.cancelDelays()
-
-    def cancelDelays(self):
-        cancel_list = list(self.delayed)
-        for d in cancel_list:
-            d.cancel()
-
-    def cleanDelay(self, fut, fut_ref):
-        self.delayed.remove(fut)
-
-    def triggerOutput(self):
-        self.timerOutput()
-
-    def onInput_onStart(self):
-        import qi
-        import functools
-        delay_future = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
-        # keep the async operation in an array for cancel
-        # and remove it when it is finished in the callback
-        self.delayed.append(delay_future)
-        bound_clean = functools.partial(self.cleanDelay, delay_future)
-        delay_future.addCallback(bound_clean)
-
-    def onInput_onStop(self):
-        if self.getParameter("Trigger timerOutput if cancelled") and self.delayed:
-            self.timerOutput()
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Delay box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once delay set in parameters is elapsed, or if the box is stopped and the appropriate parameter is set." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="5" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently delaying at least one signal and cancelled, output will be stimulated." id="6" /></Box><Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="14" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="10" indexofinput="2" outputowner="14" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Animated Say Text" id="9" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="436" y="286"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
-
-class MyClass(GeneratedClass):
-    def __init__(self):
-        GeneratedClass.__init__(self, False)
-        self.tts = ALProxy('ALAnimatedSpeech')
-        self.ttsStop = ALProxy('ALAnimatedSpeech', True) #Create another proxy as wait is blocking if audioout is remote
-
-    def onLoad(self):
-        self.bIsRunning = False
-        self.ids = []
-
-    def onUnload(self):
-        for id in self.ids:
-            try:
-                self.ttsStop.stop(id)
-            except:
-                pass
-        while( self.bIsRunning ):
-            time.sleep( 0.2 )
-
-    def onInput_onStart(self, p):
-        self.bIsRunning = True
-        try:
-            movement = self.getParameter("Speaking movement mode")
-            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
-            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
-            sentence += str(p)
-            sentence +=  "\RST\ "
-            id = self.tts.post.say(str(sentence), {"speakingMovementMode":movement})
-            self.ids.append(id)
-            self.tts.wait(id, 0)
-        finally:
-            try:
-                self.ids.remove(id)
-            except:
-                pass
-            if( self.ids == [] ):
-                self.onStopped() # activate output of the box
-                self.bIsRunning = False
-
-    def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="random" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7"><Choice value="disabled" /><Choice value="random" /><Choice value="contextual" /></Parameter></Box><Box name="Say (1)" id="11" localization="8" tooltip="Say some text. The text can be localized." x="425" y="207"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="3" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="random" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7"><Choice value="disabled" /><Choice value="random" /><Choice value="contextual" /></Parameter></Box><Box name="Say" id="11" localization="8" tooltip="Say some text. The text can be localized." x="179" y="46"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
 
 class MyClass(GeneratedClass):
     def __init__(self):
@@ -1176,10 +1205,12 @@ class MyClass(GeneratedClass):
                 self.bIsRunning = False
 
     def onInput_onStop(self):
-        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="快點來註冊吧" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="InputYourName" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="185" y="147"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="輸入你的電話說不定我會認識你唷" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="InputYourName" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="454" y="138"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self)
         import qi
+        self.url = "http://125.227.60.86:81/tmp/CameraFaceRecoName.php"
+        self.getnameurl = "http://125.227.60.86:81/tmp/GetFaceName.txt"
 
 
     def onLoad(self):
@@ -1187,7 +1218,9 @@ class MyClass(GeneratedClass):
         pass
 
     def onUnload(self):
-        #put clean-up code here
+        tabletService = self._getTabletService()
+        tabletService.loadUrl(self.url + "?clean=0") #清除檔案
+        tabletService.cleanWebview()
         pass
 
     def _getTabletService(self):
@@ -1204,20 +1237,23 @@ class MyClass(GeneratedClass):
 
         import requests
         #url = "http://125.227.60.86:81/tmp/pepper.php"   #網域
-        url = "http://125.227.60.86:81/tmp/FaceRecoName.html"
-        getnameurl = "http://125.227.60.86:81/tmp/GetFaceName.php"
-        tabletService.showWebview(url)
-        resp = requests.request('GET', getnameurl)
-        while (resp.content is None):
-            resp = requests.request('GET',getnameurl)
+        tabletService.showWebview(self.url)
+        resp = requests.request('GET', self.getnameurl)
 
+        #假如沒資料 就在做一次 直到有資料
+        while (resp.content is ''):
+            import time
+            time.sleep(3)
+            resp = requests.request('GET',self.getnameurl)
+
+
+        #抓到名字  就可以註冊了
         self.onStopped(resp.content )
-
 
 
     def onInput_onStop(self):
         self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
-        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="Face Reco." id="5" localization="8" tooltip="Detect people&apos;s face and recognize those which are known by the robot.&#x0A;&#x0A;Note: the robot needs to learn a face with the Learn Face box before he can recognize it." x="202" y="268"><bitmap>media/images/box/interaction/reco_face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="Face Reco." id="5" localization="8" tooltip="Detect people&apos;s face and recognize those which are known by the robot.&#x0A;&#x0A;Note: the robot needs to learn a face with the Learn Face box before he can recognize it." x="229" y="281"><bitmap>media/images/box/interaction/reco_face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -1264,4 +1300,770 @@ class MyClass(GeneratedClass):
                             self.onRecognizedFace( s )
 
     def onInput_onStop(self):
-        pass]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input. It must be the&#x0A;FaceDetected extractor data." id="2" /><Output name="onRecognizedFace" type="3" type_size="1" nature="1" inner="0" tooltip="Name of recognized face. If several faces are recognized, they are sent one after an&#x0A;other on this output.&#x0A;&#x0A;Note: if it is the wrong face which has been recognized, you have 7s to rename&#x0A;it with the relearn function available on one of  Add/Del Faces sub-boxes (Learn Face&#x0A;box)." id="3" /><Output name="onDetectWithoutReco" type="1" type_size="1" nature="1" inner="0" tooltip="A face has been detected for more than 8s but has not been recognized. It means&#x0A;that the robot does not know this face but it would be a good idea to learn it." id="4" /></Box><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="1" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Link inputowner="3" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="5" indexofoutput="6" /><Link inputowner="11" indexofinput="2" outputowner="5" indexofoutput="5" /><Link inputowner="14" indexofinput="2" outputowner="0" indexofoutput="2" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
+        pass]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input. It must be the&#x0A;FaceDetected extractor data." id="2" /><Output name="onRecognizedFace" type="3" type_size="1" nature="1" inner="0" tooltip="Name of recognized face. If several faces are recognized, they are sent one after an&#x0A;other on this output.&#x0A;&#x0A;Note: if it is the wrong face which has been recognized, you have 7s to rename&#x0A;it with the relearn function available on one of  Add/Del Faces sub-boxes (Learn Face&#x0A;box)." id="3" /><Output name="onDetectWithoutReco" type="1" type_size="1" nature="1" inner="0" tooltip="A face has been detected for more than 8s but has not been recognized. It means&#x0A;that the robot does not know this face but it would be a good idea to learn it." id="4" /></Box><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="0" indexofinput="6" outputowner="1" indexofoutput="3" /><Link inputowner="0" indexofinput="5" outputowner="1" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Say (1)" id="6" localization="8" tooltip="Say some text. The text can be localized." x="851" y="0"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="成功" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="Say (2)" id="15" localization="8" tooltip="Say some text. The text can be localized." x="721" y="177"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="失敗" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="Get Age" id="1" localization="8" tooltip="This box returns the age of the person in front of the robot.&#x0A;The detection fails when there are more or less than one person in front of the robot or when the timeout is exceeded.&#x0A;&#x0A;It is possible to set up the Confidence Threshold and the Timeout parameters for this box. " x="337" y="44"><bitmap>media/images/box/interaction/age.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+
+    def onLoad(self):
+        try:
+            self.faceC = ALProxy("ALFaceCharacteristics")
+        except Exception as e:
+            raise RuntimeError(str(e) + "Make sure you're not connected to a virtual robot." )
+        self.confidence = self.getParameter("Confidence Threshold")
+        self.age = 0
+        self.counter = 0
+        self.bIsRunning = False
+        self.delayed = []
+        self.errorMes = ""
+
+    def onUnload(self):
+        self.counter = 0
+        self.age = 0
+        self.bIsRunning = False
+        self.cancelDelays()
+
+    def onInput_onStart(self):
+        try:
+            #start timer
+            import qi
+            import functools
+            delay_future = qi.async(self.onTimeout, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+            self.delayed.append(delay_future)
+            bound_clean = functools.partial(self.cleanDelay, delay_future)
+            delay_future.addCallback(bound_clean)
+
+            self.bIsRunning = True
+            while self.bIsRunning:
+                if self.counter < 4:
+                    try:
+                        #identify user
+                        ids = ALMemory.getData("PeoplePerception/PeopleList")
+                        if len(ids) == 0:
+                            self.errorMes = "No face detected"
+                            self.onUnload()
+                        elif len(ids) > 1:
+                            self.errorMes = "Multiple faces detected"
+                            self.onUnload()
+                        else:
+                            #analyze age properties
+                            self.faceC.analyzeFaceCharacteristics(ids[0])
+                            time.sleep(0.1)
+                            value = ALMemory.getData("PeoplePerception/Person/"+str(ids[0])+"/AgeProperties")
+                            if value[1] > self.confidence:
+                                self.age += value[0]
+                                self.counter += 1
+                    except:
+                        ids = []
+                else:
+                    #calculate mean value
+                    self.age /= 4
+                    self.onStopped(int(self.age))
+                    self.onUnload()
+                    return
+            raise RuntimeError(self.errorMes)
+        except Exception as e:
+            raise RuntimeError(str(e))
+            self.onUnload()
+
+    def onTimeout(self):
+        self.errorMes = "Timeout"
+        self.onUnload()
+
+    def cleanDelay(self, fut, fut_ref):
+        self.delayed.remove(fut)
+
+    def cancelDelays(self):
+        cancel_list = list(self.delayed)
+        for d in cancel_list:
+            d.cancel()
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="2" type_size="1" nature="1" inner="0" tooltip="Returns a number between 0 and 75 indicating the age of the person in front of the robot.&#x0A;&#x0A;Tip:&#x0A;Connect this output to If box to compare the age with a defined value" id="4" /><Output name="onError" type="3" type_size="1" nature="1" inner="0" tooltip='Triggered when age detection failed. &#x0A;Possible error messages:&#x0A;- &quot;No face detected&quot;&#x0A;- &quot;Multiple faces detected&quot;&#x0A;- &quot;Timeout&quot;' id="5" /><Parameter name="Confidence Threshold" inherits_from_parent="0" content_type="2" value="0.35" default_value="0.6" min="0" max="1" tooltip="Set the confidence threshold for the age detection." id="6" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="10" default_value="5" min="1" max="60" tooltip="" id="7" /></Box><Box name="Animated Say Text (1)" id="2" localization="8" tooltip="Say the text received on its input and move during its speech.&#x0A;" x="456" y="0"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALAnimatedSpeech')
+        self.ttsStop = ALProxy('ALAnimatedSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self, p):
+        self.bIsRunning = True
+        try:
+            movement = self.getParameter("Speaking movement mode")
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += str("如果光太暗我會猜有點高 ..我覺得是"+ str(p) +"歲")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence), {"speakingMovementMode":movement})
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="2" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Speaking movement mode" inherits_from_parent="0" content_type="3" value="random" default_value="contextual" custom_choice="0" tooltip="Change the body language mode during the speech.&#x0A;disabled: The robot will only play the animations given by the user through the animation parameter.&#x0A;random: During time the robot has no animation to play, he will launch random neutral animations.&#x0A;contextual: During time the robot has no animation to play, he will try to launch a new one accordingly to the saying text. Every time the robot can&apos;t find a contextual animation he will launch a random neutral animation." id="7"><Choice value="disabled" /><Choice value="random" /><Choice value="contextual" /></Parameter></Box><Link inputowner="3" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="5" indexofoutput="6" /><Link inputowner="11" indexofinput="2" outputowner="5" indexofoutput="5" /><Link inputowner="10" indexofinput="2" outputowner="11" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="3" indexofoutput="3" /><Link inputowner="15" indexofinput="2" outputowner="3" indexofoutput="4" /><Link inputowner="5" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="4" /><Link inputowner="0" indexofinput="4" outputowner="15" indexofoutput="4" /><Link inputowner="0" indexofinput="4" outputowner="9" indexofoutput="4" /><Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Sound Tracker" id="19" localization="-1" tooltip="This box makes the robot track a sound with different modes.&#x0A;&#x0A;V1.1.0" x="243" y="177"><bitmap>media/images/box/interaction/target_sound.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        self.tracker = ALProxy( "ALTracker" )
+        self.memory = ALProxy("ALMemory")
+        try:
+            self.soundLocation = ALProxy("ALSoundLocalization")
+        except Exception as e:
+            self.soundLocation = None
+            self.logger.error(e)
+        self.targetName = "Sound"
+        self.distance = 0.0
+        self.soundDistance = 0.5
+        self.confidence = 0.0
+        self.thresholdX = 0.0
+        self.effector = "None"
+        self.sensitivity = 0.7
+        self.subscribeDone = False
+        self.isRunning = False
+
+    def onLoad(self):
+        self.BIND_PYTHON(self.getName(), "setParameter")
+        self.BIND_PYTHON(self.getName(), "onTargetLost")
+        self.BIND_PYTHON(self.getName(), "onTargetReached")
+        self.BIND_PYTHON(self.getName(), "onTargetChanged")
+        if self.soundLocation:
+            self.memory.subscribeToEvent("ALTracker/ActiveTargetChanged", self.getName(), "onTargetChanged")
+
+    def onUnload(self):
+        if self.subscribeDone:
+            self.memory.unsubscribeToEvent("ALTracker/TargetLost", self.getName())
+            self.memory.unsubscribeToEvent("ALTracker/TargetReached", self.getName())
+            self.subscribeDone = False
+
+        if self.isRunning:
+            self.tracker.setEffector("None")
+            self.tracker.stopTracker()
+            self.tracker.unregisterTarget(self.targetName)
+            self.isRunning = False
+
+    def onInput_onStart(self):
+        self.memory.subscribeToEvent("ALTracker/TargetLost", self.getName(), "onTargetLost")
+        self.memory.subscribeToEvent("ALTracker/TargetReached", self.getName(), "onTargetReached")
+        self.subscribeDone = False
+
+        mode = self.getParameter("Mode")
+        self.confidence = self.getParameter("Threshold to be sure of the location (%)") / 100.0
+        self.distance = self.getParameter("Distance (m)")
+        self.thresholdX = self.getParameter("Threshold X (m)")
+        self.effector = self.getParameter("Effector")
+        self.sensitivity = self.getParameter("Sensitivity")
+
+        if self.soundLocation:
+            self.soundLocation.setParameter("Sensitivity", self.sensitivity)
+
+        self.tracker.setEffector(self.effector)
+
+        self.tracker.registerTarget(self.targetName, [self.soundDistance, self.confidence])
+        self.tracker.setRelativePosition([-self.distance, 0.0, 0.0,
+                                            self.thresholdX, 0.1, 0.3])
+        self.tracker.setMode(mode)
+
+        self.tracker.track(self.targetName) #Start tracker
+        self.isRunning = True
+
+    def onInput_onStop(self):
+        self.onStopped()
+        self.onUnload()
+
+    def setParameter(self, parameterName, newValue):
+        GeneratedClass.setParameter(self, parameterName, newValue)
+        if (parameterName == 'Mode'):
+            self.tracker.setMode(newValue)
+            return
+
+        if (parameterName == "Threshold to be sure of the location (%)"):
+            self.confidence = self.getParameter("Threshold to be sure of the location (%)") / 100.0
+            self.tracker.registerTarget(self.targetName, [self.soundDistance, self.confidence])
+            return
+
+        if (parameterName == "Distance (m)"):
+            self.distance = newValue
+            self.tracker.setRelativePosition([-self.distance, 0.0, 0.0,
+                                                self.thresholdX, 0.1, 0.3])
+            return
+
+        if (parameterName == "Threshold X (m)"):
+            self.thresholdX = newValue
+            self.tracker.setRelativePosition([-self.distance, 0.0, 0.0,
+                                                self.thresholdX, 0.1, 0.3])
+            return
+
+        if(parameterName == "Effector"):
+            self.tracker.setEffector(newValue)
+            self.effector = newValue
+            return
+
+        if(parameterName == "Sensitivity"):
+            self.sensitivity = newValue
+            if self.soundLocation:
+                self.soundLocation.setParameter("Sensitivity", self.sensitivity)
+            return
+
+
+    def onTargetLost(self, key, value, message):
+        self.targetLost()
+
+    def onTargetReached(self, key, value, message):
+        self.targetReached()
+
+    def onTargetChanged(self, key, value, message):
+        if value == self.targetName and not self.subscribeDone:
+            self.memory.subscribeToEvent("ALTracker/TargetLost", self.getName(), "onTargetLost")
+            self.memory.subscribeToEvent("ALTracker/TargetReached", self.getName(), "onTargetReached")
+            self.subscribeDone = True
+        elif value != self.targetName and self.subscribeDone:
+            self.memory.unsubscribeToEvent("ALTracker/TargetLost", self.getName())
+            self.memory.unsubscribeToEvent("ALTracker/TargetReached", self.getName())
+            self.subscribeDone = False]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Output name="targetLost" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is lost." id="5" /><Output name="targetReached" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent when the target is reached." id="6" /><Parameter name="Mode" inherits_from_parent="0" content_type="3" value="Head" default_value="Head" custom_choice="0" tooltip="Set tracker mode" id="7"><Choice value="Head" /><Choice value="WholeBody" /><Choice value="Move" /></Parameter><Parameter name="Effector" inherits_from_parent="0" content_type="3" value="None" default_value="None" custom_choice="0" tooltip="Set effector to use for tracking. Head is always used." id="8"><Choice value="None" /><Choice value="Arms" /><Choice value="LArm" /><Choice value="RArm" /></Parameter><Parameter name="Threshold to be sure of the location (%)" inherits_from_parent="0" content_type="1" value="50" default_value="50" min="1" max="100" tooltip="If a sound is localized with a threshold higher than this value, then the sound&#x0A;location will be sent on the output. Else, the robot will consider that the sound is not&#x0A;localized at the right location and he will not take it into account." id="9" /><Parameter name="Distance (m)" inherits_from_parent="0" content_type="2" value="0.699793" default_value="0.3" min="0.01" max="5" tooltip="Distance the robot will try to maintain from its target in move modes." id="10" /><Parameter name="Threshold X (m)" inherits_from_parent="0" content_type="2" value="0.1" default_value="0.1" min="0.01" max="1" tooltip="Threshold above which the robot will move to track its target in move modes." id="11" /><Parameter name="Sensitivity" inherits_from_parent="0" content_type="2" value="0.7" default_value="0.7" min="0.01" max="1" tooltip="Sensitivity to adjust the capacity of the robot to locate quiet sounds." id="12" /></Box><Box name="Eyes LEDs" id="8" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes. Note that you must enter the box to enter the color." x="415" y="4"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="0" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="0" content_type="2" value="0.01" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Eyes LEDs" id="15" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes." x="281" y="41"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.ids = []
+        self.leds = ALProxy("ALLeds")
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_color(self, p):
+        if( self.getParameter("Side") == "Left" ):
+            sGroup = "LeftFaceLeds"
+        elif( self.getParameter("Side") == "Right" ):
+            sGroup = "RightFaceLeds"
+        else:
+            sGroup = "FaceLeds"
+        id = self.leds.post.fadeRGB(sGroup, 256*256*p[0] + 256*p[1] + p[2], self.getParameter("Duration (s)"))
+        self.ids.append(id)
+        self.leds.wait(id, 0)
+        self.ids.remove(id)
+        if( self.ids == [] ):
+            self.onDone() # activate output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="color" type="2" type_size="3" nature="2" inner="0" tooltip="Color of robot&apos;s eyes." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="1" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="1" content_type="2" value="0.1" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /></Box><Box name="Color Edit" id="16" localization="8" tooltip="Transmit a table of number [R,G,B] correponsding to the selected color." plugin="coloredit_plugin" x="105" y="47"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped([0, 255, 0])]]></content></script><pluginContent><color>#00ff00</color></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="To send the color on the output." id="2" /><Output name="onStopped" type="2" type_size="3" nature="1" inner="0" tooltip="[R,G,B] with R, G and B between 0 and 255." id="3" /></Box><Link inputowner="15" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="3" outputowner="15" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Learn Face" id="3" localization="8" tooltip="Teach the robot a new face to recognize. the robot&apos;s eyes will become green in case of&#x0A;success and red in case of failure.&#x0A;&#x0A;V1.1.0&#x0A;" x="534" y="19"><bitmap>media/images/box/interaction/learn_face.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onLearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of the face you want to learn.&#x0A;&#x0A;After entering the name of the face, you have 5s to place in front of the robot&apos;s face.&#x0A;Then the learning process is launched and the robot&apos;s eyes get blue. After some&#x0A;seconds, his eyes should turn green (success) or red (failure).&#x0A;&#x0A;Note: You can learn several times the same face on different days and/or&#x0A;conditions to robustify the recognition process." id="2" /><Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning succeeded." id="3" /><Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the learning failed." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram scale="118.921"><Box name="Learn Face" id="2" localization="8" tooltip="Learn a face to recognize it later.&#x0A;&#x0A;Note: You need to be just in front of the robot&apos;s face to teach him your face." x="624" y="60"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        try:
+            self.faceDetectionModule = ALProxy("ALFaceDetection")
+        except Exception as e:
+            self.faceDetectionModule = None
+            self.logger.error(e)
+
+
+    def onLoad(self):
+        self.bIsRunning = False
+
+    def onUnload(self):
+        self.bIsRunning = False
+
+    def onInput_onLearn(self, p):
+        if( self.bIsRunning ):
+            return
+        self.bIsRunning = True
+        if( self.faceDetectionModule and self.faceDetectionModule.learnFace( p ) ):
+            self.onSuccess()
+        else:
+            self.onFailure()
+        self.bIsRunning = False
+
+    def onInput_onReLearn(self, p):
+        if( self.bIsRunning ):
+            return
+        self.bIsRunning = True
+        if( self.faceDetectionModule and self.faceDetectionModule.reLearnFace( p ) ):
+            self.onSuccess()
+        else:
+            self.onFailure()
+        self.bIsRunning = False]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onLearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of the face you want to learn." id="2" /><Input name="onReLearn" type="3" type_size="1" nature="2" inner="0" tooltip="Name of the face you want to relearn. Stimulating this input enables to use in a&#x0A;new learning process the latest images where a face has been wrongly&#x0A;recognized." id="3" /><Output name="onSuccess" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the operation succeeded. The face has been learnt." id="4" /><Output name="onFailure" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent if the operation failed. The face has not been learnt." id="5" /></Box><Box name="WaitToSendMsg" id="8" localization="8" tooltip="Wait for both inputs to be stimulated before sending the message." x="464" y="32"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.ok1 = None
+        self.ok2 = False
+
+    def onUnload(self):
+        #puts code for box cleanup here
+        ""
+
+    def onInput_onMessage(self, p):
+        if( not self.ok2 ):
+            self.ok1 = p
+        else:
+            self.ok( p )
+
+    def onInput_onSignal(self):
+        if( self.ok1 == None ):
+            self.ok2 = True
+        else:
+            self.ok( self.ok1 )
+
+    def ok(self, p):
+        self.ok1 = None
+        self.ok2 = False
+        self.onStopped( p )]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onMessage" type="0" type_size="1" nature="2" inner="0" tooltip="First signal to wait. This signal contains the message to transmit." id="2" /><Input name="onSignal" type="1" type_size="1" nature="2" inner="0" tooltip="Second signal to wait." id="3" /><Output name="onStopped" type="0" type_size="1" nature="1" inner="0" tooltip="Message sent when both inputs are stimulated." id="4" /></Box><Box name="Only Once" id="9" localization="8" tooltip="This box&apos;s output is stimulated only the first time the onSignal input is." x="71" y="37"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.bFirstTime = True
+
+    def onUnload(self):
+        self.bFirstTime = True
+
+    def onInput_onSignal(self, p):
+        if( self.bFirstTime ):
+            self.bFirstTime = False
+            self.firstTime(p)]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onSignal" type="0" type_size="1" nature="1" inner="0" tooltip="The signal that must pass only once." id="2" /><Output name="firstTime" type="0" type_size="1" nature="2" inner="0" tooltip="Signal sent first time the onSignal input is stimulated." id="3" /></Box><Box name="Eyes LEDs" id="5" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes. Note that you must enter the box to enter the color." x="776" y="12"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="0" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="0" content_type="2" value="0.01" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Eyes LEDs" id="15" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes." x="281" y="41"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.ids = []
+        self.leds = ALProxy("ALLeds")
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_color(self, p):
+        if( self.getParameter("Side") == "Left" ):
+            sGroup = "LeftFaceLeds"
+        elif( self.getParameter("Side") == "Right" ):
+            sGroup = "RightFaceLeds"
+        else:
+            sGroup = "FaceLeds"
+        id = self.leds.post.fadeRGB(sGroup, 256*256*p[0] + 256*p[1] + p[2], self.getParameter("Duration (s)"))
+        self.ids.append(id)
+        self.leds.wait(id, 0)
+        self.ids.remove(id)
+        if( self.ids == [] ):
+            self.onDone() # activate output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="color" type="2" type_size="3" nature="2" inner="0" tooltip="Color of robot&apos;s eyes." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="1" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="1" content_type="2" value="0.1" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /></Box><Box name="Color Edit" id="16" localization="8" tooltip="Transmit a table of number [R,G,B] correponsding to the selected color." plugin="coloredit_plugin" x="105" y="47"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped([0, 255, 0])]]></content></script><pluginContent><color>#00ff00</color></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="To send the color on the output." id="2" /><Output name="onStopped" type="2" type_size="3" nature="1" inner="0" tooltip="[R,G,B] with R, G and B between 0 and 255." id="3" /></Box><Link inputowner="15" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="3" outputowner="15" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Eyes LEDs" id="6" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes. Note that you must enter the box to enter the color." x="776" y="114"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="0" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="0" content_type="2" value="0.01" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Eyes LEDs" id="15" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes." x="281" y="41"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.ids = []
+        self.leds = ALProxy("ALLeds")
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_color(self, p):
+        if( self.getParameter("Side") == "Left" ):
+            sGroup = "LeftFaceLeds"
+        elif( self.getParameter("Side") == "Right" ):
+            sGroup = "RightFaceLeds"
+        else:
+            sGroup = "FaceLeds"
+        id = self.leds.post.fadeRGB(sGroup, 256*256*p[0] + 256*p[1] + p[2], self.getParameter("Duration (s)"))
+        self.ids.append(id)
+        self.leds.wait(id, 0)
+        self.ids.remove(id)
+        if( self.ids == [] ):
+            self.onDone() # activate output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="color" type="2" type_size="3" nature="2" inner="0" tooltip="Color of robot&apos;s eyes." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="1" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="1" content_type="2" value="0.1" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /></Box><Box name="Color Edit" id="16" localization="8" tooltip="Transmit a table of number [R,G,B] correponsding to the selected color." plugin="coloredit_plugin" x="105" y="47"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped([255, 0, 0])]]></content></script><pluginContent><color>#ff0000</color></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="To send the color on the output." id="2" /><Output name="onStopped" type="2" type_size="3" nature="1" inner="0" tooltip="[R,G,B] with R, G and B between 0 and 255." id="3" /></Box><Link inputowner="15" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="3" outputowner="15" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Eyes LEDs" id="1" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes. Note that you must enter the box to enter the color." x="330" y="122"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="0" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="0" content_type="2" value="0.01" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Eyes LEDs" id="15" localization="8" tooltip="Set the color of LEDs of robot&apos;s eyes." x="281" y="41"><bitmap>media/images/box/interaction/LED.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.ids = []
+        self.leds = ALProxy("ALLeds")
+
+    def onUnload(self):
+        #~ puts code for box cleanup here
+        pass
+
+    def onInput_color(self, p):
+        if( self.getParameter("Side") == "Left" ):
+            sGroup = "LeftFaceLeds"
+        elif( self.getParameter("Side") == "Right" ):
+            sGroup = "RightFaceLeds"
+        else:
+            sGroup = "FaceLeds"
+        id = self.leds.post.fadeRGB(sGroup, 256*256*p[0] + 256*p[1] + p[2], self.getParameter("Duration (s)"))
+        self.ids.append(id)
+        self.leds.wait(id, 0)
+        self.ids.remove(id)
+        if( self.ids == [] ):
+            self.onDone() # activate output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="color" type="2" type_size="3" nature="2" inner="0" tooltip="Color of robot&apos;s eyes." id="2" /><Output name="onDone" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Parameter name="Side" inherits_from_parent="1" content_type="3" value="Both" default_value="Both" custom_choice="0" tooltip="Choose the eye where the LED light is set." id="4"><Choice value="Both" /><Choice value="Left" /><Choice value="Right" /></Parameter><Parameter name="Duration (s)" inherits_from_parent="1" content_type="2" value="0.1" default_value="0.1" min="0" max="5" tooltip="Transition&apos;s duration in seconds." id="5" /></Box><Box name="Color Edit" id="16" localization="8" tooltip="Transmit a table of number [R,G,B] correponsding to the selected color." plugin="coloredit_plugin" x="105" y="47"><bitmap>media/images/box/interaction/vocabulary.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+	def __init__(self):
+		GeneratedClass.__init__(self)
+
+	def onInput_onStart(self):
+		self.onStopped([0, 170, 255])]]></content></script><pluginContent><color>#00aaff</color></pluginContent><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="To send the color on the output." id="2" /><Output name="onStopped" type="2" type_size="3" nature="1" inner="0" tooltip="[R,G,B] with R, G and B between 0 and 255." id="3" /></Box><Link inputowner="15" indexofinput="2" outputowner="16" indexofoutput="3" /><Link inputowner="16" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="3" outputowner="15" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Wait" id="3" localization="8" tooltip="Wait a moment before sending a signal on the output. &#x0A;Can be stopped anytime. &#x0A;Stimulating the input again before output is activated restarts the waiting period.&#x0A;" x="200" y="95"><bitmap>media/images/box/wait.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.waiting = None
+
+    def onUnload(self):
+        self.cancelWaiting()
+
+    def triggerOutput(self):
+        self.timerOutput()
+
+    def cancelWaiting(self):
+        if self.waiting:
+            self.waiting.cancel()
+        self.waiting = None
+
+    def onInput_onStart(self):
+        self.cancelWaiting()
+        import qi
+        self.waiting = qi.async(self.triggerOutput, delay=int(self.getParameter("Timeout (s)") * 1000 * 1000))
+
+    def onInput_onStop(self):
+        if self.getParameter("Trigger timerOutput if cancelled") and self.waiting and self.waiting.isRunning():
+            self.timerOutput()
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Start the Wait box with the configured timeout value." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Stop the wait and stimulate the output." id="3" /><Output name="timerOutput" type="1" type_size="1" nature="1" inner="0" tooltip="Send a bang once time set in parameters is elapsed, or if the box is stopped." id="4" /><Parameter name="Timeout (s)" inherits_from_parent="0" content_type="2" value="5" default_value="1" min="0" max="5000" tooltip="Duration the box waits before stimulating the output." id="5" /><Parameter name="Trigger timerOutput if cancelled" inherits_from_parent="0" content_type="0" value="0" default_value="1" tooltip="If the box is currently waiting and cancelled, output will be stimulated." id="6" /></Box><Box name="Say" id="4" localization="8" tooltip="Say some text. The text can be localized." x="1037" y="88"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="成功" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="Say (1)" id="7" localization="8" tooltip="Say some text. The text can be localized." x="989" y="232"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="失敗" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Link inputowner="2" indexofinput="2" outputowner="8" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="8" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="5" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="2" indexofoutput="5" /><Link inputowner="0" indexofinput="3" outputowner="5" indexofoutput="3" /><Link inputowner="0" indexofinput="4" outputowner="6" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="4" /><Link inputowner="8" indexofinput="3" outputowner="3" indexofoutput="4" /><Link inputowner="4" indexofinput="2" outputowner="2" indexofoutput="4" /><Link inputowner="7" indexofinput="2" outputowner="2" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="InputYourName" id="10" localization="8" tooltip="This box contains a basic python script and can be used to create any python script box you would like.&#x0A;&#x0A;To edit its script, double-click on it." x="392" y="106"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        import qi
+        self.url = "http://125.227.60.86:81/tmp/CameraFaceRecoName.php"
+        self.getnameurl = "http://125.227.60.86:81/tmp/GetFaceName.txt"
+
+
+    def onLoad(self):
+        #put initialization code here
+        pass
+
+    def onUnload(self):
+        tabletService = self._getTabletService()
+        tabletService.loadUrl(self.url + "?clean=0") #清除檔案
+        tabletService.cleanWebview()
+        pass
+
+    def _getTabletService(self):
+        tabletService = None
+        try:
+            tabletService = self.session().service("ALTabletService")
+        except Exception as e:
+            self.logger.error(e)
+        return tabletService
+
+    def onInput_onStart(self):
+        tabletService = self._getTabletService()
+        ##tabletService.showWebview("http://125.227.60.86:81/tmp/pepper.php" )
+
+        import requests
+        #url = "http://125.227.60.86:81/tmp/pepper.php"   #網域
+        tabletService.showWebview(self.url)
+        resp = requests.request('GET', self.getnameurl)
+
+        #假如沒資料 就在做一次 直到有資料
+        while (resp.content is ''):
+            import time
+            time.sleep(3)
+            resp = requests.request('GET',self.getnameurl)
+
+
+        #抓到名字  就可以註冊了
+        self.onStopped(resp.content )
+
+
+    def onInput_onStop(self):
+        self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Box name="Say" id="6" localization="8" tooltip="Say some text. The text can be localized." x="731" y="0"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="成功" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="Say (1)" id="15" localization="8" tooltip="Say some text. The text can be localized." x="661" y="61"><bitmap>media/images/box/interaction/say.png</bitmap><script language="4"><content><![CDATA[import time
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+        self.tts = ALProxy('ALTextToSpeech')
+        self.ttsStop = ALProxy('ALTextToSpeech', True) #Create another proxy as wait is blocking if audioout is remote
+
+    def onLoad(self):
+        self.bIsRunning = False
+        self.ids = []
+
+    def onUnload(self):
+        for id in self.ids:
+            try:
+                self.ttsStop.stop(id)
+            except:
+                pass
+        while( self.bIsRunning ):
+            time.sleep( 0.2 )
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+        try:
+            sentence = "\RSPD="+ str( self.getParameter("Speed (%)") ) + "\ "
+            sentence += "\VCT="+ str( self.getParameter("Voice shaping (%)") ) + "\ "
+            sentence += self.getParameter("Text")
+            sentence +=  "\RST\ "
+            id = self.tts.post.say(str(sentence))
+            self.ids.append(id)
+            self.tts.wait(id, 0)
+        finally:
+            try:
+                self.ids.remove(id)
+            except:
+                pass
+            if( self.ids == [] ):
+                self.onStopped() # activate output of the box
+                self.bIsRunning = False
+
+    def onInput_onStop(self):
+        self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when Diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this Input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this Input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when Box behavior is finished." id="4" /><Parameter name="Voice shaping (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="150" tooltip='Used to modify at runtime the voice feature (tone, speed). In a slighty&#x0A;different way than pitch and speed, it gives a kind of &quot;gender or age&#x0A;modification&quot; effect.&#x0A;&#x0A;For instance, a quite good male derivation of female voice can be&#x0A;obtained setting this parameter to 78%.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the&#x0A;speed parameter. For example, if you want to decrease by 20% the voice&#x0A;shaping, you will have to increase by 20% the speed to keep a constant&#x0A;average speed.' id="5" /><Parameter name="Speed (%)" inherits_from_parent="1" content_type="1" value="100" default_value="100" min="50" max="200" tooltip="Changes the speed of the voice.&#x0A;&#x0A;Note: For a better effect, you can compensate this parameter with the voice&#x0A;shaping parameter. For example, if you want to increase by 20% the speed, you&#x0A;will have to decrease by 20% the voice shaping to keep a constant average&#x0A;speed." id="6" /><Parameter name="Text" inherits_from_parent="0" content_type="5" value="失敗" default_value="" tooltip="The text you want to say. Don&apos;t forget to translate it!" id="7" /></Box><Box name="Reboot" id="5" localization="1" tooltip="Reboot the connected robot, if it is not virtual.&#x0A;&#x0A;V1.1.0&#x0A;" x="346" y="271"><bitmap>media/images/box/box-script.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+        pass
+
+    def onLoad(self):
+        pass
+
+    def onUnload(self):
+        pass
+
+    def onInput_onStart(self):
+        try:
+            system = ALProxy("ALSystem")
+            system.reboot()
+        except:
+            self.logger.error("Cannot reboot a virtual robot")]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /></Box><Link inputowner="17" indexofinput="2" outputowner="18" indexofoutput="3" /><Link inputowner="12" indexofinput="2" outputowner="17" indexofoutput="3" /><Link inputowner="20" indexofinput="2" outputowner="20" indexofoutput="4" /><Link inputowner="19" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="8" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="3" indexofinput="2" outputowner="10" indexofoutput="4" /><Link inputowner="15" indexofinput="2" outputowner="3" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="3" indexofoutput="3" /><Link inputowner="10" indexofinput="2" outputowner="0" indexofoutput="2" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
