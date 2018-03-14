@@ -99,7 +99,7 @@
         <name>behavior_1/behavior.xar:/FaceReco/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>輸入你的電話說不定我會認識你唷</source>
+            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -123,19 +123,15 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/Learn Face/Say</name>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (3)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>成功</source>
+            <source>Hello</source>
             <comment>Text</comment>
-            <translation type="unfinished"></translation>
+            <translation type="vanished">你好</translation>
         </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/Learn Face/Say (1)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>失敗</source>
+            <source>人臉</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -147,12 +143,6 @@
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
         </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>成功</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
@@ -160,12 +150,6 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
-        </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>失敗</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>

@@ -197,10 +197,15 @@
             <translation type="obsolete">我想猜一下你的年紀 看著我好嗎</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>輸入你的電話說不定我會認識你唷</source>
             <comment>Text</comment>
-            <translation type="unfinished">輸入你的電話說不定我會認識你唷</translation>
+            <translation type="obsolete">輸入你的電話說不定我會認識你唷</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
+            <comment>Text</comment>
+            <translation type="unfinished">輸入你的電話如果你是超市的會員說不定我會認識你唷</translation>
         </message>
     </context>
     <context>
@@ -222,21 +227,33 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/Learn Face/Say</name>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (3)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>人臉</source>
+            <comment>Text</comment>
+            <translation type="unfinished">人臉</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Learn Face/Say</name>
+        <message>
             <source>成功</source>
             <comment>Text</comment>
-            <translation type="unfinished">成功</translation>
+            <translation type="obsolete">成功</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Learn Face/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>失敗</source>
             <comment>Text</comment>
-            <translation type="unfinished">失敗</translation>
+            <translation type="obsolete">失敗</translation>
         </message>
     </context>
     <context>
@@ -292,10 +309,9 @@
             <translation type="obsolete">連線成功</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>成功</source>
             <comment>Text</comment>
-            <translation type="unfinished">成功</translation>
+            <translation type="obsolete">成功</translation>
         </message>
         <message>
             <source>Hello [~pause] 你好啊</source>
@@ -346,10 +362,9 @@
             <translation type="obsolete">我不認識你呢來認識一下吧</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>失敗</source>
             <comment>Text</comment>
-            <translation type="unfinished">失敗</translation>
+            <translation type="obsolete">失敗</translation>
         </message>
     </context>
     <context>
