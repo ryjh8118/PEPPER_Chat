@@ -24,11 +24,11 @@
    </autonomous>
    <permissions/>
   </behaviorContent>
-  <dialogContent typeVersion="1.0" topicName="customer">
+  <dialogContent topicName="customer" typeVersion="1.0">
    <topic language="en_US" path="Customer/customer_enu.top"/>
    <topic language="zh_CN" path="Customer/customer_mnc.top"/>
   </dialogContent>
-  <dialogContent typeVersion="1.0" topicName="ExampleDialog">
+  <dialogContent topicName="ExampleDialog" typeVersion="1.0">
    <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
    <topic language="zh_CN" path="behavior_1/ExampleDialog/ExampleDialog_mnc.top"/>
   </dialogContent>
