@@ -211,19 +211,29 @@
     <context>
         <name>behavior_1/behavior.xar:/FaceReco/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>成功</source>
             <comment>Text</comment>
-            <translation type="unfinished">成功</translation>
+            <translation type="obsolete">成功</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我認識你了!!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">我認識你了!!</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceReco/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>失敗</source>
             <comment>Text</comment>
-            <translation type="unfinished">失敗</translation>
+            <translation type="obsolete">失敗</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請再看著我一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished">請再看著我一下</translation>
         </message>
     </context>
     <context>
@@ -234,10 +244,15 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>人臉</source>
             <comment>Text</comment>
-            <translation type="unfinished">人臉</translation>
+            <translation type="obsolete">人臉</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>看著我啦</source>
+            <comment>Text</comment>
+            <translation type="unfinished">看著我啦</translation>
         </message>
     </context>
     <context>

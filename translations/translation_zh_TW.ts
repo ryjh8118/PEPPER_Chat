@@ -108,7 +108,7 @@
         <name>behavior_1/behavior.xar:/FaceReco/Say (1)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>成功</source>
+            <source>我認識你了!!</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -117,7 +117,7 @@
         <name>behavior_1/behavior.xar:/FaceReco/Say (2)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>失敗</source>
+            <source>請再看著我一下</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -131,7 +131,7 @@
         </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>人臉</source>
+            <source>看著我啦</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
