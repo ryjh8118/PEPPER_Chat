@@ -65,6 +65,7 @@
         <Topic name="Customer_enu" src="Customer/Customer_enu.top" topicName="customer" language="en_US" />
         <Topic name="Customer_mnc" src="Customer/Customer_mnc.top" topicName="customer" language="zh_CN" />
         <Topic name="lexicon_mnc" src="Customer/lexicon_mnc.top" topicName="lexicon_mnc" language="zh_CN" />
+        <Topic name="customer_mnt" src="Customer/customer_mnt.top" topicName="customer" language="zh_TW" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
