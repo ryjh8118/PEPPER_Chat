@@ -35,7 +35,10 @@ u:({你}[~guess][~age]{~aux})我來猜猜看你..讓我想想看
     $guessage=1
 u:({~guess}[~reco] {~aux})那你看著我好嘛
     $whoareyou=1
-
+u:({~ask}吃的{~questionAux})我查查看
+    $askeat=1
+u:({~ask}喝的{~questionAux})我查查看
+    $askdrink=1
 #u:(e:Dialog/NotUnderstood3):^rand["我覺得你來這邊 [~pause] 一定是個很有品味的人" "要轐要點個東西吃阿 [~pause] 或是喝杯飲料" 拜託再說一次 今天看到你我好興奮]  #事件 聽不懂兩次
 #u:(e:Dialog/NotSpeaking5):^rand[歡迎來到有值感的未來超市 這是一個懷舊帶有科技的未來超市 今天想要買甚麼呢 近來了就來看看吧可以問問我唷] #沒人說話的話 隨機
 u:(e:onStart)來陪我嘛
