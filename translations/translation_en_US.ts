@@ -101,6 +101,34 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/Dialog/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>321</source>
+            <comment>Text</comment>
+            <translation type="unfinished">321</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Dialog/Say (2)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>好喘喔我休息一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished">好喘喔我休息一下</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Face Detection/Say</name>
         <message>
             <source>沒人</source>
@@ -517,9 +545,10 @@
     <context>
         <name>behavior_1/behavior.xar:/Say (2)</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="vanished">Hello</translation>
+            <translation>Hello</translation>
         </message>
         <message>
             <source>沒人</source>
@@ -535,6 +564,11 @@
             <source>失敗</source>
             <comment>Text</comment>
             <translation type="obsolete">失敗</translation>
+        </message>
+        <message>
+            <source>讓我心裡準備3秒鐘一下3..2...1</source>
+            <comment>Text</comment>
+            <translation type="obsolete">讓我心裡準備3秒鐘一下3..2...1</translation>
         </message>
     </context>
     <context>

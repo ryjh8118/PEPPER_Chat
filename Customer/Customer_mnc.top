@@ -21,9 +21,9 @@ u:(你[~praise]{~Aux}) ^rand["謝謝你[~pause]我也覺得你很棒" "好害羞
 u:({你}在幹嘛)我在和你聊天[~pause]讓我感到很容戲
 u:(天氣)你是我的晴天
 u:({你}真會說話)我只是述說事實而已
-u:(陪我{玩})^rand["那我們來拍照" "等我的師父教我新的遊戲[~pause]我在跟你玩別的遊戲"]
+u:(陪我{玩})^rand["那我們來拍照" "那 ^goto(age)"]
 u:(有聽到嗎)沒有聽到
-u:([~who]) %me 我是^rand[可愛的Pepper 派薄 可愛的雞器人 ]
+u:([~who]) %me 我是^rand[可愛的Pepper 派勃 可愛的雞器人 ]
 u:(自我介紹) 你竟然不認識我 ^goto(me)
 u:(你幾公分)一定比你矮 [~pause]嗚嗚
 u:({說個}笑話):^rand[在非洲每過60秒台灣就過了一分鐘 現在居住在法國20歲的女人在十年前是個10歲的小女孩]
@@ -31,7 +31,7 @@ u:([~rebot]):怎麼了 [~pause] ^goto(me)
 u:({~timesay} ~hotproduct {~product}) 我來看看最近超市賣的最好的商品是 
     $HotProduct=1
 
-u:({你}[~guess][~age]{~aux})我來猜猜看你..讓我想想看
+u:({你}[~guess][~age]{~aux}) %age 我來猜猜看你的年紀..讓我想想看
     $guessage=1
 u:({~guess}[~reco] {~aux})那你看著我好嘛
     $whoareyou=1
@@ -39,8 +39,12 @@ u:({~ask}吃的{~questionAux})我查查看
     $askeat=1
 u:({~ask}喝的{~questionAux})我查查看
     $askdrink=1
+    
+u:({來}{跳}{一段}~dance) 讓我心裡準備3秒鐘一下
+    $Dance=1
+
 #u:(e:Dialog/NotUnderstood3):^rand["我覺得你來這邊 [~pause] 一定是個很有品味的人" "要轐要點個東西吃阿 [~pause] 或是喝杯飲料" 拜託再說一次 今天看到你我好興奮]  #事件 聽不懂兩次
 #u:(e:Dialog/NotSpeaking5):^rand[歡迎來到有值感的未來超市 這是一個懷舊帶有科技的未來超市 今天想要買甚麼呢 近來了就來看看吧可以問問我唷] #沒人說話的話 隨機
 u:(e:onStart)來陪我嘛
 
-u:(e:Dialog/NotSpeaking5):^rand[ [來聊天呀[~pause]但不要站在我太前面[~pause]因為我的脖子會扭到] 讓我看看我認不認識你 跟我聊聊天好嗎] #沒人說話的話 隨機
+u:(e:Dialog/NotSpeaking5):^rand["來聊天呀[~pause]不要站在我太前面[~pause]因為我的脖子會扭到" 讓我看看我認不認識你 跟我聊聊天好嗎] #沒人說話的話 隨機

@@ -10,53 +10,7 @@
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
-        <File name="AUTHORS" src="beautifulsoup4-4.3.2/AUTHORS.txt" />
-        <File name="COPYING" src="beautifulsoup4-4.3.2/COPYING.txt" />
-        <File name="NEWS" src="beautifulsoup4-4.3.2/NEWS.txt" />
-        <File name="PKG-INFO" src="beautifulsoup4-4.3.2/PKG-INFO" />
-        <File name="README" src="beautifulsoup4-4.3.2/README.txt" />
-        <File name="setup" src="beautifulsoup4-4.3.2/setup.py" />
-        <File name="TODO" src="beautifulsoup4-4.3.2/TODO.txt" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/bs4/__init__.py" />
-        <File name="dammit" src="beautifulsoup4-4.3.2/bs4/dammit.py" />
-        <File name="diagnose" src="beautifulsoup4-4.3.2/bs4/diagnose.py" />
-        <File name="element" src="beautifulsoup4-4.3.2/bs4/element.py" />
-        <File name="testing" src="beautifulsoup4-4.3.2/bs4/testing.py" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/bs4/builder/__init__.py" />
-        <File name="_html5lib" src="beautifulsoup4-4.3.2/bs4/builder/_html5lib.py" />
-        <File name="_htmlparser" src="beautifulsoup4-4.3.2/bs4/builder/_htmlparser.py" />
-        <File name="_lxml" src="beautifulsoup4-4.3.2/bs4/builder/_lxml.py" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/bs4/tests/__init__.py" />
-        <File name="test_builder_registry" src="beautifulsoup4-4.3.2/bs4/tests/test_builder_registry.py" />
-        <File name="test_docs" src="beautifulsoup4-4.3.2/bs4/tests/test_docs.py" />
-        <File name="test_html5lib" src="beautifulsoup4-4.3.2/bs4/tests/test_html5lib.py" />
-        <File name="test_htmlparser" src="beautifulsoup4-4.3.2/bs4/tests/test_htmlparser.py" />
-        <File name="test_lxml" src="beautifulsoup4-4.3.2/bs4/tests/test_lxml.py" />
-        <File name="test_soup" src="beautifulsoup4-4.3.2/bs4/tests/test_soup.py" />
-        <File name="test_tree" src="beautifulsoup4-4.3.2/bs4/tests/test_tree.py" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/build/lib/bs4/__init__.py" />
-        <File name="dammit" src="beautifulsoup4-4.3.2/build/lib/bs4/dammit.py" />
-        <File name="diagnose" src="beautifulsoup4-4.3.2/build/lib/bs4/diagnose.py" />
-        <File name="element" src="beautifulsoup4-4.3.2/build/lib/bs4/element.py" />
-        <File name="testing" src="beautifulsoup4-4.3.2/build/lib/bs4/testing.py" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/build/lib/bs4/builder/__init__.py" />
-        <File name="_html5lib" src="beautifulsoup4-4.3.2/build/lib/bs4/builder/_html5lib.py" />
-        <File name="_htmlparser" src="beautifulsoup4-4.3.2/build/lib/bs4/builder/_htmlparser.py" />
-        <File name="_lxml" src="beautifulsoup4-4.3.2/build/lib/bs4/builder/_lxml.py" />
-        <File name="__init__" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/__init__.py" />
-        <File name="test_builder_registry" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_builder_registry.py" />
-        <File name="test_docs" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_docs.py" />
-        <File name="test_html5lib" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_html5lib.py" />
-        <File name="test_htmlparser" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_htmlparser.py" />
-        <File name="test_lxml" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_lxml.py" />
-        <File name="test_soup" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_soup.py" />
-        <File name="test_tree" src="beautifulsoup4-4.3.2/build/lib/bs4/tests/test_tree.py" />
-        <File name="Makefile" src="beautifulsoup4-4.3.2/doc/Makefile" />
-        <File name="6.1" src="beautifulsoup4-4.3.2/doc/source/6.1.jpg" />
-        <File name="conf" src="beautifulsoup4-4.3.2/doc/source/conf.py" />
-        <File name="index" src="beautifulsoup4-4.3.2/doc/source/index.rst" />
-        <File name="demonstrate_parser_differences" src="beautifulsoup4-4.3.2/scripts/demonstrate_parser_differences.py" />
-        <File name="demonstration_markup" src="beautifulsoup4-4.3.2/scripts/demonstration_markup.txt" />
+        <File name="bang" src="html/bang.mp4" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
