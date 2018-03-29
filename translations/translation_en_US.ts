@@ -42,6 +42,24 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/CustomerChat/Say (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>好喘喔我休息一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished">好喘喔我休息一下</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/CustomerChat/number</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>三二一</source>
+            <comment>Text</comment>
+            <translation type="unfinished">三二一</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Diagram/Animated Say</name>
         <message>
             <source>Hello</source>
@@ -94,10 +112,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>你在哪我找不到你</source>
             <comment>Text</comment>
-            <translation type="unfinished">你在哪我找不到你</translation>
+            <translation type="obsolete">你在哪我找不到你</translation>
         </message>
     </context>
     <context>
@@ -108,10 +125,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>321</source>
             <comment>Text</comment>
-            <translation type="unfinished">321</translation>
+            <translation type="obsolete">321</translation>
         </message>
     </context>
     <context>
@@ -122,10 +138,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>好喘喔我休息一下</source>
             <comment>Text</comment>
-            <translation type="unfinished">好喘喔我休息一下</translation>
+            <translation type="obsolete">好喘喔我休息一下</translation>
         </message>
     </context>
     <context>
@@ -165,37 +180,46 @@
     <context>
         <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>&quot;快來和我聊天&quot;</source>
             <comment>Text</comment>
-            <translation type="unfinished">&quot;快來和我聊天&quot;</translation>
+            <translation type="obsolete">&quot;快來和我聊天&quot;</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceDection/Chat/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>哀</source>
             <comment>Text</comment>
-            <translation type="unfinished">哀</translation>
+            <translation type="obsolete">哀</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceDection/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>口渴了嗎 快來看看有甚麼好喝的果汁吧</source>
             <comment>Text</comment>
-            <translation type="unfinished">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
+            <translation type="obsolete">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceDection/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
             <comment>Text</comment>
-            <translation type="unfinished">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
+            <translation type="obsolete">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Animated Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <source>摸摸我的頭我可以感應你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="obsolete">摸摸我的頭我可以感應你上次買了什麼</translation>
         </message>
     </context>
     <context>
@@ -301,6 +325,32 @@
             <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
             <comment>Text</comment>
             <translation type="obsolete">輸入你的電話如果你是超市的會員說不定我會認識你唷</translation>
+        </message>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <source>摸摸我的頭我可以感應你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="obsolete">摸摸我的頭我可以感應你上次買了什麼</translation>
+        </message>
+        <message>
+            <source>摸我的頭我可以感應你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="obsolete">摸我的頭我可以感應你上次買了什麼</translation>
+        </message>
+        <message>
+            <source>摸摸的頭我可以知道你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="obsolete">摸摸的頭我可以知道你上次買了什麼</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>摸的頭我可以知道你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="unfinished">摸的頭我可以知道你上次買了什麼</translation>
         </message>
     </context>
     <context>
@@ -427,10 +477,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hello</translation>
+            <translation type="vanished">Hello</translation>
         </message>
         <message>
             <source>&quot;快來換我聊天&quot;</source>
@@ -536,19 +585,27 @@
             <translation type="obsolete">失敗</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>FAIL</source>
             <comment>Text</comment>
-            <translation type="unfinished">FAIL</translation>
+            <translation type="obsolete">FAIL</translation>
+        </message>
+        <message>
+            <source>1</source>
+            <comment>Text</comment>
+            <translation type="obsolete">1</translation>
+        </message>
+        <message>
+            <source>摸的我好害羞</source>
+            <comment>Text</comment>
+            <translation type="obsolete">摸的我好害羞</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (2)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hello</translation>
+            <translation type="vanished">Hello</translation>
         </message>
         <message>
             <source>沒人</source>
@@ -577,6 +634,19 @@
             <source>成功旺季</source>
             <comment>Text</comment>
             <translation type="obsolete">成功旺季</translation>
+        </message>
+        <message>
+            <source>2</source>
+            <comment>Text</comment>
+            <translation type="obsolete">2</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/Say (4)</name>
+        <message>
+            <source>3</source>
+            <comment>Text</comment>
+            <translation type="obsolete">3</translation>
         </message>
     </context>
     <context>
@@ -609,6 +679,15 @@
             <source>肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</source>
             <comment>Text</comment>
             <translation type="obsolete">肚子餓了嗎 快來瞧瞧超市有甚麼好吃的東西吧</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/success</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">成功</translation>
         </message>
     </context>
 </TS>
