@@ -200,6 +200,17 @@
             <comment>Text</comment>
             <translation type="obsolete">口渴了嗎 快來看看有甚麼好喝的果汁吧</translation>
         </message>
+        <message>
+            <source>Success</source>
+            <comment>Text</comment>
+            <translation type="obsolete">Success</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>已拍好</source>
+            <comment>Text</comment>
+            <translation type="unfinished">已拍好</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceDection/Say (1)</name>
@@ -541,6 +552,11 @@
             <comment>Text</comment>
             <translation type="obsolete">Hello %pause 你好啊</translation>
         </message>
+        <message>
+            <source>good morning</source>
+            <comment>Text</comment>
+            <translation type="obsolete">good morning</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
@@ -598,6 +614,12 @@
             <source>摸的我好害羞</source>
             <comment>Text</comment>
             <translation type="obsolete">摸的我好害羞</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>again</source>
+            <comment>Text</comment>
+            <translation type="unfinished">again</translation>
         </message>
     </context>
     <context>

@@ -84,6 +84,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/FaceDection/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>已拍好</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/FaceReco/Animated Say</name>
         <message>
             <source>Hello</source>
@@ -154,6 +163,12 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>again</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
