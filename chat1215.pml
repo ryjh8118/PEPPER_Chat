@@ -7,10 +7,10 @@
     <Dialogs>
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="Customer" src="Customer/Customer.dlg" />
+        <Dialog name="nopeople" src="nopeople/nopeople.dlg" />
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
-        <File name="bang" src="html/bang.mp4" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
@@ -20,6 +20,9 @@
         <Topic name="Customer_mnc" src="Customer/Customer_mnc.top" topicName="customer" language="zh_CN" />
         <Topic name="lexicon_mnc" src="Customer/lexicon_mnc.top" topicName="lexicon_mnc" language="zh_CN" />
         <Topic name="customer_mnt" src="Customer/customer_mnt.top" topicName="customer" language="zh_TW" />
+        <Topic name="nopeople_enu" src="nopeople/nopeople_enu.top" topicName="nopeople" language="en_US" />
+        <Topic name="nopeople_mnc" src="nopeople/nopeople_mnc.top" topicName="nopeople" language="zh_CN" />
+        <Topic name="nopeople_mnt" src="nopeople/nopeople_mnt.top" topicName="nopeople" language="zh_TW" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="en_US">
