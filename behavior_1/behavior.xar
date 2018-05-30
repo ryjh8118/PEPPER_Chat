@@ -157,6 +157,7 @@ class MyClass(GeneratedClass):
         self.recordFolder = "/home/nao/recordings/cameras/"
         self.json= ""
         self.url = "http://192.168.1.222/test.php?a="
+        self.arr=['']
 
 
     def onLoad(self):
@@ -210,13 +211,23 @@ class MyClass(GeneratedClass):
 #            self.json= str(p[0][0]) #文字部分
 #            tabletService.showWebview(self.url +"?name="+self.json) #傳值
 
-        self.json=str(len(r.content))
-        if (r.status_code==200):
-            self.bIsRunning = False
-            tabletService.showWebview(self.url + self.json)
-            self.onStopped(str(r.json('results')))
+#        self.json=str(r.content)
+        self.arr=r.json()
+        if(len(r.json()))==6:
+
+            if (r.status_code==200):
+                self.bIsRunning = False
+    #            tabletService.showWebview(self.url + self.arr[0])
+    #            self.data(self.json)
+    #            self.onStopped(str(self.arr['results']))
+                self.onStopped(str(self.arr['thresholds'])+str(self.arr['results']))
+
+            else:
+                self.onUnload()
         else:
-            self.onUnload()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Output name="nodata" type="1" type_size="1" nature="1" inner="0" tooltip="" id="4" /><Parameter name="Resolution" inherits_from_parent="0" content_type="3" value="320 x 240" default_value="640 x 480" custom_choice="0" tooltip="Image resolution." id="5"><Choice value="160 x 120" /><Choice value="320 x 240" /><Choice value="640 x 480" /><Choice value="1280 x 960" /></Parameter><Parameter name="File Name" inherits_from_parent="0" content_type="3" value="image" default_value="image" custom_choice="0" tooltip="Name of the file without its extension." id="6" /><Parameter name="Camera" inherits_from_parent="0" content_type="3" value="Top" default_value="Top" custom_choice="0" tooltip="Enables to select the camera (Top or Bottom) that will take the picture." id="7"><Choice value="Top" /><Choice value="Bottom" /></Parameter></Box><Box name="Log" id="3" localization="8" tooltip="Prompt the message in the debug window. You can set a prefix and a priority&#x0A;for the message in the parameters." x="617" y="399"><bitmap>media/images/box/print.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+            time.sleep(5)
+            self.noface('沒偵測到')
+            pass]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Output name="onStopped" type="3" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="3" /><Output name="data" type="3" type_size="1" nature="1" inner="0" tooltip="" id="4" /><Output name="noface" type="3" type_size="1" nature="2" inner="0" tooltip="" id="5" /><Parameter name="Resolution" inherits_from_parent="0" content_type="3" value="320 x 240" default_value="640 x 480" custom_choice="0" tooltip="Image resolution." id="6"><Choice value="160 x 120" /><Choice value="320 x 240" /><Choice value="640 x 480" /><Choice value="1280 x 960" /></Parameter><Parameter name="File Name" inherits_from_parent="0" content_type="3" value="image" default_value="image" custom_choice="0" tooltip="Name of the file without its extension." id="7" /><Parameter name="Camera" inherits_from_parent="0" content_type="3" value="Top" default_value="Top" custom_choice="0" tooltip="Enables to select the camera (Top or Bottom) that will take the picture." id="8"><Choice value="Top" /><Choice value="Bottom" /></Parameter></Box><Box name="Log" id="3" localization="8" tooltip="Prompt the message in the debug window. You can set a prefix and a priority&#x0A;for the message in the parameters." x="617" y="399"><bitmap>media/images/box/print.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
     def __init__(self):
         GeneratedClass.__init__(self, False)
 
@@ -3256,4 +3267,58 @@ class MyClass(GeneratedClass):
     def onInput_onSignal(self):
         if( self.bFirstTime ):
             self.bFirstTime = False
-            self.firstTime()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onSignal" type="1" type_size="1" nature="1" inner="0" tooltip="The signal that must pass only once." id="2" /><Output name="firstTime" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent first time the onSignal input is stimulated." id="3" /></Box><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="1" indexofinput="3" outputowner="2" indexofoutput="3" /><Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="3" indexofoutput="3" /><Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="5" indexofinput="2" outputowner="9" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
+            self.firstTime()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onSignal" type="1" type_size="1" nature="1" inner="0" tooltip="The signal that must pass only once." id="2" /><Output name="firstTime" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent first time the onSignal input is stimulated." id="3" /></Box><Link inputowner="9" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="1" indexofinput="2" outputowner="9" indexofoutput="3" /><Link inputowner="2" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="1" indexofinput="3" outputowner="2" indexofoutput="3" /><Link inputowner="0" indexofinput="4" outputowner="2" indexofoutput="3" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Face Detection" id="4" localization="8" tooltip="Detect people&apos;s face and return the number of detected faces.&#x0A;&#x0A;Note: Detect even faces that are not registered in the faces database (that&#x0A;you can teach him with the Learn Face box)." x="80" y="182"><bitmap>media/images/box/interaction/face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.bIsRunning = False
+
+    def onUnload(self):
+        self.bIsRunning = False
+
+    def onInput_onStart(self):
+        self.bIsRunning = True
+
+    def onInput_onStop(self):
+        if( self.bIsRunning ):
+            self.onUnload()
+            self.onStopped()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Input name="FaceDetected" type="0" type_size="1" nature="4" stm_value_name="FaceDetected" inner="1" tooltip="Connected to ALMemory. Will be stimulated every time the value subscribed to changes, respecting the refresh period." id="4" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is stopped." id="5" /><Output name="numberOfFaces" type="2" type_size="1" nature="2" inner="0" tooltip="Number of detected faces. This output is stimulated each time the number of&#x0A;detected faces change." id="6" /><Output name="onNoFace" type="1" type_size="1" nature="2" inner="0" tooltip="No face is detected." id="7" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Count Det. Faces" id="3" localization="8" tooltip="Process face detection extractor data (FaceDetected) to count the number&#x0A;of detected faces and notify when there is no face detected.&#x0A;&#x0A;An output (either one or the other) is stimulated each time the number of&#x0A;detected faces change." x="174" y="71"><bitmap>media/images/box/interaction/reco_face.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.nFacesDetected = -1
+
+    def onUnload(self):
+        #puts code for box cleanup here
+        pass
+
+    def onInput_onStart(self, p):
+        if(len(p) > 0):
+            if(self.nFacesDetected != len(p[1]) -1): # an additional array has been placed at the end for time
+                self.nFacesDetected = len(p[1]) -1  # filtered info and has to be substracted when counting faces
+                if(self.nFacesDetected != 0):
+                    self.onFaceDetected( self.nFacesDetected )
+                else:
+                    self.onNoFace()
+        else:
+            if(self.nFacesDetected != 0):
+                self.nFacesDetected = 0
+                self.onNoFace()
+
+    def onInput_onStop(self):
+        pass]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="0" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input. It must be the&#x0A;FaceDetected extractor data." id="2" /><Output name="onFaceDetected" type="2" type_size="1" nature="1" inner="0" tooltip="Number of detected faces." id="3" /><Output name="onNoFace" type="1" type_size="1" nature="1" inner="0" tooltip="No face is detected." id="4" /></Box><Link inputowner="3" indexofinput="2" outputowner="0" indexofoutput="4" /><Link inputowner="0" indexofinput="6" outputowner="3" indexofoutput="3" /><Link inputowner="0" indexofinput="7" outputowner="3" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box><Box name="Only Once" id="10" localization="8" tooltip="This box&apos;s output is stimulated only the first time the onSignal input is.&#x0A;&#x0A;Note: It is reset when the diagram containing the box is unloaded." x="191" y="305"><bitmap>media/images/box/loop.png</bitmap><script language="4"><content><![CDATA[class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self, False)
+
+    def onLoad(self):
+        self.bFirstTime = True
+
+    def onUnload(self):
+        self.bFirstTime = True
+
+    def onInput_onSignal(self):
+        if( self.bFirstTime ):
+            self.bFirstTime = False
+            self.firstTime()]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onSignal" type="1" type_size="1" nature="1" inner="0" tooltip="The signal that must pass only once." id="2" /><Output name="firstTime" type="1" type_size="1" nature="2" inner="0" tooltip="Signal sent first time the onSignal input is stimulated." id="3" /></Box><Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="5" indexofinput="2" outputowner="9" indexofoutput="4" /><Link inputowner="9" indexofinput="2" outputowner="5" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="4" /><Link inputowner="6" indexofinput="2" outputowner="6" indexofoutput="5" /><Link inputowner="6" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="4" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="10" indexofinput="2" outputowner="4" indexofoutput="6" /><Link inputowner="1" indexofinput="2" outputowner="10" indexofoutput="3" /><Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="4" /><Link inputowner="3" indexofinput="2" outputowner="1" indexofoutput="3" /><Link inputowner="1" indexofinput="2" outputowner="1" indexofoutput="5" /><Link inputowner="14" indexofinput="2" outputowner="1" indexofoutput="5" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>
