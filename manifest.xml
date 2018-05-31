@@ -25,11 +25,11 @@
    <permissions/>
   </behaviorContent>
   <dialogContent topicName="customer" typeVersion="1.0">
-   <topic language="zh_TW" path="Customer/customer_mnt.top"/>
+   <topic path="Customer/customer_mnt.top" language="zh_TW"/>
   </dialogContent>
   <dialogContent topicName="ExampleDialog" typeVersion="1.0">
-   <topic language="en_US" path="behavior_1/ExampleDialog/ExampleDialog_enu.top"/>
-   <topic language="zh_CN" path="behavior_1/ExampleDialog/ExampleDialog_mnc.top"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_enu.top" language="en_US"/>
+   <topic path="behavior_1/ExampleDialog/ExampleDialog_mnc.top" language="zh_CN"/>
   </dialogContent>
  </contents>
  <requirements>

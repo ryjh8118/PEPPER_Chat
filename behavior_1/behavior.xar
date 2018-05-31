@@ -156,8 +156,11 @@ class MyClass(GeneratedClass):
 
         self.recordFolder = "/home/nao/recordings/cameras/"
         self.json= ""
-        self.url = "http://192.168.1.222/test.php?a="
+        self.url = "http://192.168.1.222/RECO/face_recognition.php?thresholdsjson="
+#        self.url = "http://192.168.1.222/test.php?a="
         self.arr=['']
+
+
 
 
     def onLoad(self):
@@ -212,6 +215,11 @@ class MyClass(GeneratedClass):
 #            tabletService.showWebview(self.url +"?name="+self.json) #傳值
 
 #        self.json=str(r.content)
+        import json
+        import simplejson
+
+
+#        self.arr=json.dumps(r.json())  dict轉成json
         self.arr=r.json()
         if(len(r.json()))==6:
 
@@ -220,7 +228,11 @@ class MyClass(GeneratedClass):
     #            tabletService.showWebview(self.url + self.arr[0])
     #            self.data(self.json)
     #            self.onStopped(str(self.arr['results']))
-                self.onStopped(str(self.arr['thresholds'])+str(self.arr['results']))
+
+                tabletService.showWebview(self.url +json.dumps(self.arr['thresholds'])+"&resultjson="+json.dumps(self.arr['results']))
+                self.onStopped(self.url +json.dumps(self.arr['thresholds'])+"&resultjson="+json.dumps(self.arr['results']))
+#                self.onStopped(json.dumps(self.arr['thresholds'])+"&resultjson="+json.dumps(self.arr['results']))
+##                self.onStopped(str(self.arr['thresholds'])+str(self.arr['results']))
 
             else:
                 self.onUnload()
