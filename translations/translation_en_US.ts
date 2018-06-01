@@ -798,6 +798,15 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/model/LookVistor</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我看到你了!!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">我看到你了!!</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/model/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -809,10 +818,9 @@
     <context>
         <name>behavior_1/behavior.xar:/model/Say (1)</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>我看到你了!!</source>
             <comment>Text</comment>
-            <translation type="unfinished">我看到你了!!</translation>
+            <translation type="obsolete">我看到你了!!</translation>
         </message>
     </context>
     <context>
@@ -930,6 +938,14 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceReco/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/model2/Say</name>
         <message>
             <source>沒人要報到了嗎</source>
@@ -1023,6 +1039,119 @@
             <source>成功</source>
             <comment>Text</comment>
             <translation type="obsolete">成功</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Dance/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>好喘喔我休息一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished">好喘喔我休息一下</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Dance/number</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>三二一</source>
+            <comment>Text</comment>
+            <translation type="unfinished">三二一</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/GM</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>早安啊今天是個開心的一天</source>
+            <comment>Text</comment>
+            <translation type="unfinished">早安啊今天是個開心的一天</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>哈囉我還以為你會跟我說早安呢</source>
+            <comment>Text</comment>
+            <translation type="unfinished">哈囉我還以為你會跟我說早安呢</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning (1)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>這時候已經不早了</source>
+            <comment>Text</comment>
+            <translation type="unfinished">這時候已經不早了</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning (2)</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>現在才幾點應該要說早安</source>
+            <comment>Text</comment>
+            <translation type="unfinished">現在才幾點應該要說早安</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我猜你18歲好了</source>
+            <comment>Text</comment>
+            <translation type="unfinished">我猜你18歲好了</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/FailSay</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請再看我一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished">請再看我一下</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
+            <comment>Text</comment>
+            <translation type="unfinished">輸入你的電話如果你是超市的會員說不定我會認識你唷</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/SuccessSay</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我認識你了!!</source>
+            <comment>Text</comment>
+            <translation type="unfinished">我認識你了!!</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/FaceReco/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>摸我的頭我可以知道你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="unfinished">摸我的頭我可以知道你上次買了什麼</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/vistor/FaceReco/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>抱歉我不認識你</source>
+            <comment>Text</comment>
+            <translation type="unfinished">抱歉我不認識你</translation>
         </message>
     </context>
 </TS>
