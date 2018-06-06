@@ -25,6 +25,7 @@
    <permissions/>
   </behaviorContent>
   <dialogContent typeVersion="1.0" topicName="customer">
+   <topic path="Customer/customer_mnc.top" language="zh_CN"/>
    <topic path="Customer/customer_mnt.top" language="zh_TW"/>
   </dialogContent>
   <dialogContent typeVersion="1.0" topicName="ExampleDialog">

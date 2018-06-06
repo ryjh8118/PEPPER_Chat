@@ -80,6 +80,34 @@
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
         </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>摸我的頭我可以知道你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我再看一次</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/Say (2)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/FaceReco/Say (3)</name>
@@ -87,6 +115,15 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/FaceReco/help</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我看一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
@@ -104,6 +141,12 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>註冊成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
@@ -159,6 +202,56 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/FaceReco/Know/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>摸我的頭我可以知道你上次買了什麼</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/FaceReco/Register/Register/FailSay</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請再看我一下</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/FaceReco/Register/Register/Say</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/FaceReco/Register/Register/SuccessSay</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我認識你了!!</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/FaceReco/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>我沒看到你</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/GMtime/GM</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
@@ -209,37 +302,81 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/model/vistor/FaceReco/Register/Register/FailSay</name>
+        <name>behavior_1/behavior.xar:/model/vistor/CustomerChat/registerFace/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/FaceReco/Know/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>請再看我一下</source>
+            <source>註冊成功</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/model/vistor/FaceReco/Register/Register/Say</name>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
+            <source>你是不是在躲我</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/model/vistor/FaceReco/Register/Register/SuccessSay</name>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/registerFace/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>我認識你了!!</source>
+            <source>我沒看到你</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/model/vistor/FaceReco/Say</name>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/registerFace/Say (1)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>摸我的頭我可以知道你上次買了什麼</source>
+            <source>我剛剛沒看清楚可以再一次嗎</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/registerFace/Success/help</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請輸入名字</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/FaceDiagram/registerFace/Success/touchhead</name>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>輸入完可以摸我的頭</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -253,100 +390,42 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Dance/Say</name>
+        <name>behavior_1/behavior.xar:/registerFace/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>好喘喔我休息一下</source>
+            <source>註冊時你不要站我太近</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Dance/number</name>
+        <name>behavior_1/behavior.xar:/registerFace/Say (1)</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>三二一</source>
+            <source>我剛剛沒看清楚可以再一次嗎</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/GM</name>
+        <name>behavior_1/behavior.xar:/registerFace/help</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>早安啊今天是個開心的一天</source>
+            <source>請輸入英文名字</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning</name>
+        <name>behavior_1/behavior.xar:/registerFace/touchhead</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>哈囉我還以為你會跟我說早安呢</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning (1)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>這時候已經不早了</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/GMtime/NoGoodMorning (2)</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>現在才幾點應該要說早安</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/CustomerChat/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>我猜你18歲好了</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/FailSay</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>請再看我一下</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>輸入你的電話如果你是超市的會員說不定我會認識你唷</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/FaceReco/Register/Register/SuccessSay</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>我認識你了!!</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
-        <name>behavior_1/behavior.xar:/vistor/FaceReco/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>摸我的頭我可以知道你上次買了什麼</source>
+            <source>輸入完可以摸我的頭</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -357,12 +436,6 @@
             <source>Hello</source>
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
-        </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>抱歉我不認識你</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
         </message>
     </context>
 </TS>
