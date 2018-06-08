@@ -33,8 +33,12 @@ u:({你是}{男生}{女生})這是我的祕密我會害羞
 u:({~timesay} ~hotproduct {~product}) 我來看看最近超市賣的最好的商品是 
     $HotProduct=1
 
+u:(最熱賣的商品) 我來看看最近超市賣的最好的商品是 
+    $HotProduct=1
+    
 u:({你}[~guess][~age]{~aux}) %age 我來猜猜看你的年紀..讓我想想看
     $guessage=1
+    
 u:({~guess}[~reco] {~aux})^rand[那你看一下我迷人的雙眼 請你看著我一下]
     $whoareyou=1
 
@@ -44,15 +48,29 @@ u:({~ask}吃的{~questionAux}) %askeat ^rand[我查查看 我印象中 我聽說
     $askeat=1
 u:({~ask}喝的{~questionAux}) %askdrink ^rand[我查查看 我印象中 我聽說]
     $askdrink=1    
+    
+u:(有什麼好吃的)%askeat ^rand[我查查看 我印象中 我聽說]
+    $askeat=1
+
+u:(有什麼好喝的)%askdrink ^rand[我查查看 我印象中 我聽說]
+    $askdrink=1    
+    
+u:(有什麼推薦的商品)%askeat ^rand[我查查看 我印象中 我聽說]
+    $askeat=1
 #u:({來}{跳}{一段}~dance) 讓我心裡準備3秒鐘一下
 #    $Dance=1
 
-u:({人臉}註冊)請你看著我的眼睛 ~pause 不要太靠近
+u:(註冊)要註冊人臉嗎 ~pause 是的話請點一下我平板上可愛的我
     $register=1
+u:(我想要人臉註冊)要註冊人臉嗎 ~pause 是的話請點一下我平板上可愛的我
+    $register=1
+    
+#u:({上次}{曾經}) 摸我的頭我可以知道你上次買什麼唷 
+#    $before=1
 
 u:({來}{唱}{一首}歌) 兩隻老虎[~pause]兩隻老虎[~pause]跑得快跑得快[~pause]一隻喜歡吃蔥抓餅[~pause]一隻喜歡喝現打果汁[~pause]真可愛真可愛
 #u:(e:Dialog/NotUnderstood3):^rand["我覺得你來這邊 [~pause] 一定是個很有品味的人" "要轐要點個東西吃阿 [~pause] 或是喝杯飲料" 拜託再說一次 今天看到你我好興奮]  #事件 聽不懂兩次
 #u:(e:Dialog/NotSpeaking5):^rand[歡迎來到有值感的未來超市 這是一個懷舊帶有科技的未來超市 今天想要買甚麼呢 近來了就來看看吧可以問問我唷] #沒人說話的話 隨機
 u:(e:onStart)可以問我問題唷
 
-u:(e:Dialog/NotSpeaking5):^rand["可以問我問題唷" "我會盡量幫助你的" "可以問我上次買什麼唷" "可以問我最熱賣的商品唷"] #沒人說話的話 隨機
+u:(e:Dialog/NotSpeaking5):^rand["可以問我問題唷" "我會盡量幫助你的" "可以問我有什麼好喝的" "可以問我最熱賣的商品唷"] #沒人說話的話 隨機
