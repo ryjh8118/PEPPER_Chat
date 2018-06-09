@@ -825,10 +825,9 @@
     <context>
         <name>behavior_1/behavior.xar:/model/FaceDiagram/Eye LEDs/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>請不要離開我的視線</source>
             <comment>Text</comment>
-            <translation type="unfinished">請不要離開我的視線</translation>
+            <translation type="obsolete">請不要離開我的視線</translation>
         </message>
     </context>
     <context>
@@ -1643,6 +1642,20 @@
             <source>請不要亂動</source>
             <comment>Text</comment>
             <translation type="unfinished">請不要亂動</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/RegisterModel/Success/Say</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>註冊成功</source>
+            <comment>Text</comment>
+            <translation type="unfinished">註冊成功</translation>
         </message>
     </context>
     <context>
