@@ -117,9 +117,10 @@
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation type="vanished">你好</translation>
+            <translation>你好</translation>
         </message>
     </context>
     <context>
