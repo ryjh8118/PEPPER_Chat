@@ -106,21 +106,11 @@
         </message>
     </context>
     <context>
-        <name>behavior_1/behavior.xar:/Nomodel/hello/FaceDection/Say</name>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>已拍好</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
-    </context>
-    <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>你好</translation>
+            <translation type="vanished">你好</translation>
         </message>
     </context>
     <context>
@@ -332,12 +322,6 @@
             <comment>Text</comment>
             <translation type="vanished">你好</translation>
         </message>
-        <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>請不要亂動</source>
-            <comment>Text</comment>
-            <translation type="unfinished"></translation>
-        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/model/vistor/RegisterModel/Success/Say</name>
@@ -357,7 +341,7 @@
         <name>behavior_1/behavior.xar:/model/vistor/RegisterModel/Success/help</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>請輸入名字</source>
+            <source>請輸入英文名字</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
@@ -375,7 +359,7 @@
         <name>behavior_1/behavior.xar:/model/vistor/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>開始註冊</source>
+            <source>請站在我50公分處不要亂動倒數三秒</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>

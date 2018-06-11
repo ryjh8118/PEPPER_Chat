@@ -578,19 +578,17 @@
     <context>
         <name>behavior_1/behavior.xar:/Nomodel/hello/FaceDection/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>已拍好</source>
             <comment>Text</comment>
-            <translation type="unfinished">已拍好</translation>
+            <translation type="obsolete">已拍好</translation>
         </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>Hello</source>
             <comment>Text</comment>
-            <translation>Hello</translation>
+            <translation type="vanished">Hello</translation>
         </message>
         <message>
             <source>&quot;快來換我聊天&quot;</source>
@@ -1639,10 +1637,9 @@
             <translation type="vanished">Hello</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>請不要亂動</source>
             <comment>Text</comment>
-            <translation type="unfinished">請不要亂動</translation>
+            <translation type="obsolete">請不要亂動</translation>
         </message>
     </context>
     <context>
@@ -1662,10 +1659,15 @@
     <context>
         <name>behavior_1/behavior.xar:/model/vistor/RegisterModel/Success/help</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>請輸入名字</source>
             <comment>Text</comment>
-            <translation type="unfinished">請輸入名字</translation>
+            <translation type="obsolete">請輸入名字</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請輸入英文名字</source>
+            <comment>Text</comment>
+            <translation type="unfinished">請輸入英文名字</translation>
         </message>
     </context>
     <context>
@@ -1717,10 +1719,25 @@
             <translation type="obsolete">註冊成功</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>開始註冊</source>
             <comment>Text</comment>
-            <translation type="unfinished">開始註冊</translation>
+            <translation type="obsolete">開始註冊</translation>
+        </message>
+        <message>
+            <source>請站在我50公分處且不要亂動</source>
+            <comment>Text</comment>
+            <translation type="obsolete">請站在我50公分處且不要亂動</translation>
+        </message>
+        <message>
+            <source>請站在我50公分處且不要亂動倒數三秒</source>
+            <comment>Text</comment>
+            <translation type="obsolete">請站在我50公分處且不要亂動倒數三秒</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請站在我50公分處不要亂動倒數三秒</source>
+            <comment>Text</comment>
+            <translation type="unfinished">請站在我50公分處不要亂動倒數三秒</translation>
         </message>
     </context>
     <context>
