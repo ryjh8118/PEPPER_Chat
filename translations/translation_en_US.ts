@@ -1734,10 +1734,20 @@
             <translation type="obsolete">請站在我50公分處且不要亂動倒數三秒</translation>
         </message>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>請站在我50公分處不要亂動倒數三秒</source>
             <comment>Text</comment>
-            <translation type="unfinished">請站在我50公分處不要亂動倒數三秒</translation>
+            <translation type="obsolete">請站在我50公分處不要亂動倒數三秒</translation>
+        </message>
+        <message>
+            <source>站在我50公分前數到三秒</source>
+            <comment>Text</comment>
+            <translation type="obsolete">站在我50公分前數到三秒</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>請站在我50公分前倒數三秒</source>
+            <comment>Text</comment>
+            <translation type="unfinished">請站在我50公分前倒數三秒</translation>
         </message>
     </context>
     <context>

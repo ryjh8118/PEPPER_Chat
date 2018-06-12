@@ -359,7 +359,7 @@
         <name>behavior_1/behavior.xar:/model/vistor/Say</name>
         <message>
             <location filename="behavior_1/behavior.xar" line="0"/>
-            <source>請站在我50公分處不要亂動倒數三秒</source>
+            <source>請站在我50公分前倒數三秒</source>
             <comment>Text</comment>
             <translation type="unfinished"></translation>
         </message>
