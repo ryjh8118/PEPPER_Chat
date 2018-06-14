@@ -660,6 +660,11 @@
             <comment>Text</comment>
             <translation type="obsolete">註冊成功</translation>
         </message>
+        <message>
+            <source>前</source>
+            <comment>Text</comment>
+            <translation type="obsolete">前</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
@@ -722,6 +727,11 @@
             <source>again</source>
             <comment>Text</comment>
             <translation type="obsolete">again</translation>
+        </message>
+        <message>
+            <source>中</source>
+            <comment>Text</comment>
+            <translation type="obsolete">中</translation>
         </message>
     </context>
     <context>
@@ -1748,6 +1758,20 @@
             <source>請站在我50公分前倒數三秒</source>
             <comment>Text</comment>
             <translation type="unfinished">請站在我50公分前倒數三秒</translation>
+        </message>
+    </context>
+    <context>
+        <name>behavior_1/behavior.xar:/model/vistor/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">Hello</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>再一次請稍等</source>
+            <comment>Text</comment>
+            <translation type="unfinished">再一次請稍等</translation>
         </message>
     </context>
     <context>

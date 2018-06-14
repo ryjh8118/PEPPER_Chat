@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="big5">
-		<title>Pepper »¡¸Ü´ú¸Õ</title>
-		<script src="/libs/qimessaging/2/qimessaging.js"></script> 
-		<script>
+	<meta charset="utf-8">
+	<script src="/libs/qimessaging/2/qimessaging.js"></script> 
+	<script>
 			var session;
 			QiSession( function (s) {
 			session = s;
 			});
+				// document.write("ä½ æ‘¸äº†ã€‚");
 
-			function MyButtonClicked() {
-				session.service("ALTextToSpeech").then(function (tts) {
-					tts.say("§A¦n");
-				});
+			function validateForm() {
+				session.service("ALMemory").then(function (ALMemory) {
+			    	ALMemory.subscriber("FrontTactilTouched").then(function (subscriber) {
+		   		 		subscriber.signal.connect(function (state) {
+		   		 			// document.write("ä½ æ‘¸äº†ã€‚");
+		   		 		    document.registerform.submit();
+		   		 		});
+		  			});
+				});		
 			}
 
-			function btn_test() {
-				session.service("ALTextToSpeech").then(function (tts) {
-					tts.say("§A¦n");
-				});
-			}
-
-
-		</script>
+	</script>
 	</head>
 
-	<body>
-		<button type="button" onclick="MyButtonClicked();">»¡¸Ü</button>
-		<button type="button" onclick="btn_test();">´ú¸Õ</button>
+	<body onclick="validateForm()">
+		<center><table border="10" width=300 ><td><center><font style="å¾®è»Ÿæ­£é»‘é«”">
+		<form action="http://192.168.1.222/RECO/inputname.php" method="GET" name="registerform">
+		<h1>äººè‡‰è¨»å†Š</h1></font>
+		<br>
+		<h1>è¼¸å…¥å®Œè«‹æ‘¸æˆ‘çš„é ­</h1>
+		    <label for="name">å§“åï¼š</label>
+		<input type="text" id="name" name="name">
+		<br><br><br><br>
+			<!-- style="width:500px;height:40px;font-size:20px;" -->
+
+		<!-- <input type="submit" value="é€å‡º" onclick="validateForm()"> -->
+		<br>
+		
+		</center></td></table></center>
+		</form>	
 	</body>
 </html>

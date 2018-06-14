@@ -365,6 +365,20 @@
         </message>
     </context>
     <context>
+        <name>behavior_1/behavior.xar:/model/vistor/Say (1)</name>
+        <message>
+            <source>Hello</source>
+            <comment>Text</comment>
+            <translation type="vanished">你好</translation>
+        </message>
+        <message>
+            <location filename="behavior_1/behavior.xar" line="0"/>
+            <source>再一次請稍等</source>
+            <comment>Text</comment>
+            <translation type="unfinished"></translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/movie/Say</name>
         <message>
             <source>Hello</source>
