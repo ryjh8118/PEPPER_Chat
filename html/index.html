@@ -8,7 +8,6 @@
 			QiSession( function (s) {
 			session = s;
 			});
-				// document.write("你摸了。");
 
 			function validateForm() {
 				session.service("ALMemory").then(function (ALMemory) {
@@ -29,13 +28,13 @@
 		<form action="http://192.168.1.222/RECO/inputname.php" method="GET" name="registerform">
 		<h1>人臉註冊</h1></font>
 		<br>
-		<h1>輸入完請摸我的頭</h1>
+		<h1>輸入完點擊旁邊再摸我的頭</h1>
 		    <label for="name">姓名：</label>
 		<input type="text" id="name" name="name">
 		<br><br><br><br>
 			<!-- style="width:500px;height:40px;font-size:20px;" -->
 
-		<!-- <input type="submit" value="送出" onclick="validateForm()"> -->
+		<input type="submit" value="送出">
 		<br>
 		
 		</center></td></table></center>

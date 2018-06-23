@@ -27,6 +27,8 @@ u:([~who]) %me 我是^rand[可愛的Pepper 派勃 可愛的雞器人 ]
 u:({自我}介紹) 你竟然不認識我 ^goto(me)
 u:({你}幾公分)一定比你矮 [~pause]嗚嗚
 u:({說}{一}{個}笑話):^rand[在非洲每過60秒台灣就過了一分鐘 "我有個女性朋友居住在法國[~pause]今年20歲[~pause]十年前[~pause]居然是個10歲的小女孩"]
+u:({講個}笑話):^rand[在非洲每過60秒台灣就過了一分鐘 "我有個女性朋友居住在法國[~pause]今年20歲[~pause]十年前[~pause]居然是個10歲的小女孩"]
+
 u:([~rebot]):怎麼了 [~pause] ^goto(me)
 u:({你是}{男生}{女生})這是我的祕密我會害羞
 
@@ -49,13 +51,13 @@ u:({~ask}吃的{~questionAux}) %askeat ^rand[我查查看 我印象中 我聽說
 u:({~ask}喝的{~questionAux}) %askdrink ^rand[我查查看 我印象中 我聽說]
     $askdrink=1    
     
-u:(有什麼好吃的)%askeat ^rand[我查查看 我印象中 我聽說]
+u:(有什麼好吃的)%askeat ^rand[我查查看 我印象中 我想想]
     $askeat=1
 
-u:(有什麼好喝的)%askdrink ^rand[我查查看 我印象中 我聽說]
+u:(有什麼好喝的)%askdrink ^rand[我查查看 我印象中 我想想]
     $askdrink=1    
     
-u:(有什麼推薦的商品)%askeat ^rand[我查查看 我印象中 我聽說]
+u:(有什麼推薦的商品)%askeat ^rand[我查查看 我印象中 我想想]
     $askeat=1
 #u:({來}{跳}{一段}~dance) 讓我心裡準備3秒鐘一下
 #    $Dance=1
