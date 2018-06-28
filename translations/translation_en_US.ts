@@ -665,6 +665,16 @@
             <comment>Text</comment>
             <translation type="obsolete">前</translation>
         </message>
+        <message>
+            <source>口渴了嗎，快來看看有甚麼好喝的果汁吧</source>
+            <comment>Text</comment>
+            <translation type="obsolete">口渴了嗎，快來看看有甚麼好喝的果汁吧</translation>
+        </message>
+        <message>
+            <source>好像蠻多人點蔥抓餅 西螺蔥</source>
+            <comment>Text</comment>
+            <translation type="obsolete">好像蠻多人點蔥抓餅 西螺蔥</translation>
+        </message>
     </context>
     <context>
         <name>behavior_1/behavior.xar:/Say (1)</name>
